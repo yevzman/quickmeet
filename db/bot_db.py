@@ -1,10 +1,18 @@
 import logging
 import sqlite3
+from enum import Enum
+
+
+class DBStatus(Enum):
+    Warning = "Something went wrong"
+    Ok = "Successful"
+    Bad_Access = "Bad access"
+    Already_exist = "User with this name already exist in the group"
 
 
 class BotDB:
-    def __init__(self):
-        self.conn = sqlite3.connect("../db/data.db")
+    def __init__(self, path):
+        self.conn = sqlite3.connect(path)
         self.cursor = self.conn.cursor()
         self.cursor.execute("PRAGMA foreign_keys=ON")
 
@@ -19,24 +27,24 @@ class BotDB:
         return new_id
 
     def delete_group(self, g_id, g_name):  # удалить группу
-        result = "Something went wrong"
+        result = DBStatus.Warning
         try:
             self.cursor.execute("DELETE FROM groups WHERE (g_id = (?) AND g_name = (?))",
                                 (g_id, g_name))
-            result = "Successful delete"
+            result = DBStatus.Ok
         except sqlite3.Error as error:
             logging.warning(error)
         self.conn.commit()
         return result
 
-    def set_group_dates(self, g_id, g_name, flight, arrival) -> str:  # задать группе дату прибытия и отбытия
+    def set_group_dates(self, g_id, g_name, flight, arrival) -> DBStatus:  # задать группе дату прибытия и отбытия
         if not self.__check_access(g_id, g_name):
-            return "Bad access"
-        result = "Something went wrong"
+            return DBStatus.Bad_Access
+        result = DBStatus.Warning
         try:
             self.cursor.execute("UPDATE groups SET flight = (?), arrival = (?) WHERE g_id = (?)",
                                 (flight, arrival, g_id))
-            result = "Successful update"
+            result = DBStatus.Ok
         except sqlite3.Error as error:
             logging.warning(error)
         self.conn.commit()
@@ -62,45 +70,45 @@ class BotDB:
             logging.warning(error)
         return result
 
-    def add_user(self, g_id, g_name, u_name, city) -> str:  # добавить пользователя в группу
+    def add_user(self, g_id, g_name, u_name, city) -> DBStatus:  # добавить пользователя в группу
         if not self.__check_access(g_id, g_name):
-            return "Bad access"
-        result = "Something went wrong"
+            return DBStatus.Bad_Access
+        result = DBStatus.Warning
         try:
             query = self.cursor.execute("SELECT * FROM users WHERE (u_name = (?) AND g_id = (?))",
                                         (u_name, g_id))
             if len(query.fetchall()):
-                result = "User with this name already exist in the group"
+                result = DBStatus.Already_exist
             else:
                 self.cursor.execute("INSERT INTO users(u_name, city, g_id) VALUES((?), (?), (?))",
                                     (u_name, city, g_id))
-                result = "Successful add"
+                result = DBStatus.Ok
         except sqlite3.Error as error:
             logging.warning(error)
         self.conn.commit()
         return result
 
-    def delete_user(self, g_id, g_name, u_name) -> str:  # убрать юзера из группы
+    def delete_user(self, g_id, g_name, u_name) -> DBStatus:  # убрать юзера из группы
         if not self.__check_access(g_id, g_name):
-            return "Bad access"
-        result = "Something went wrong"
+            return DBStatus.Bad_Access
+        result = DBStatus.Warning
         try:
             self.cursor.execute("DELETE FROM users WHERE (g_id = (?) AND u_name = (?))",
                                 (g_id, u_name))
-            result = "Successful delete"
+            result = DBStatus.Ok
         except sqlite3.Error as error:
             logging.warning(error)
         self.conn.commit()
         return result
 
-    def update_user(self, g_id, g_name, u_name, new_city) -> str:  # обновить город пользователя
+    def update_user(self, g_id, g_name, u_name, new_city) -> DBStatus:  # обновить город пользователя
         if not self.__check_access(g_id, g_name):
-            return "Bad access"
-        result = "Something went wrong"
+            return DBStatus.Bad_Access
+        result = DBStatus.Warning
         try:
             self.cursor.execute("UPDATE users SET city = (?) WHERE (g_id = (?) AND u_name = (?))",
                                 (new_city, g_id, u_name))
-            result = "Successful delete"
+            result = DBStatus.Ok
         except sqlite3.Error as error:
             logging.warning(error)
         self.conn.commit()
@@ -130,10 +138,10 @@ class BotDB:
         self.conn.close()
 
 
-def create_table():  # дроп старых и создание новых таблиц
+def create_table(path):  # дроп старых и создание новых таблиц
     conn = None
     try:
-        conn = sqlite3.connect("../db/data.db")
+        conn = sqlite3.connect(path)
         cursor = conn.cursor()
         cursor.execute("DROP TABLE groups")
         cursor.execute("DROP TABLE users")
@@ -144,7 +152,7 @@ def create_table():  # дроп старых и создание новых та
             conn.close()
 
     try:
-        conn = sqlite3.connect("../db/data.db")
+        conn = sqlite3.connect(path)
         cursor = conn.cursor()
         cursor.execute(
             "CREATE TABLE groups("
