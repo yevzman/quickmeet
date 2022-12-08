@@ -1,0 +1,143 @@
+AAQ	Vityazevo	Anapa
+ABA	Abakan	Abakan
+ACS	Achinsk	Achinsk
+ADH	Aldan	Aldan
+AER	Adler - Sochi	Adler
+AMV	Amderma	Amderma
+ARH	Talagi	Arkhangelsk
+ASF	Astrakhan	Astrakhan
+BAX	Barnaul	Barnaul
+BCX	Beloreck	Beloreck
+BKA	Bykovo	Moscow
+BQS	Ignatievo	Blagoveschensk
+BTK	Bratsk	Bratsk
+BWO	Balakovo	Balakovo
+BZK	Briansk	Briansk
+CEE	Cherepovets	Cherepovets
+CEK	Chelyabinsk	Chelyabinsk
+CKH	Chokurdah	Chokurdah
+CKL	Chkalovsky	Chkalovsky
+CNN	Chulman	Chulman
+CSH	Solovky	Solovetsky
+CSY	Cheboksary	Cheboksary
+CYX	Yakut	Cherskiy
+DKS	Dikson	Dikson
+DME	Domodedovo	Moscow
+DYR	Ugolniy	Anadyr
+EGO	Belgorod	Belgorod
+EIE	Eniseysk	Eniseysk
+ESL	Elista	Elista
+GDG	Magdagachi	Magdagachi
+GDX	Sokol	Magadan
+GDZ	Gelendzik	Gelendzik
+GOJ	Strigino	Nizhniy Novgorod
+GRV	Groznyj	Groznyj
+HMA	Khanty-Mansiysk	Khanty-mansiysk
+HTA	Chita	Chita
+HTG	Hatanga	Hatanga
+IAA	Igarka	Igarka
+IAR	Tunoshna	Yaroslavl
+IJK	Izhevsk	Izhevsk
+IKS	Tiksi	Tiksi
+IKT	Irkutsk	Irkutsk
+INA	Inta	Inta
+IWA	Ivanovo	Ivanovo
+JOK	Joshkar-Ola	Joshkar-Ola
+KEJ	Kemerovo	Kemerovo
+KGD	Kaliningrad	Kaliningrad
+KGP	Kogalym International	Kogalym
+KHV	Khabarovsk(Novy)	Khabarovsk
+KJA	Emelyanovo	Krasnojarsk
+KLD	Migalovo	Tver
+KLF	Kaluga	Kaluga
+KMW	Kostroma	Kostroma
+KRO	Kurgan	Kurgan
+KRR	Pashkovsky	Krasnodar
+KSZ	Kotlas	Kotlas
+KUF	Kurumoch	Samara
+KVK	Kirovsk	Kirovsk
+KVX	Kirov	Kirov
+KXK	Komsomolsk Na Amure	Komsomolsk Na Amure
+KYZ	Kyzyl	Kyzyl
+KZN	Kazan	Kazan
+LDG	Leshukonskoye	Leshukonskoye
+LED	Pulkovo	St Petersburg
+LNX	Smolensk	Smolensk
+LPK	Lipetsk	Lipetsk
+MCX	Uitash	Makhachkala
+MJZ	Mirnyj	Mirnyj
+MMK	Murmansk Airport Murmashi	Murmansk
+MQF	Magnitogorsk	Magnitogorsk
+MRV	Mineralnye Vodyj	Mineralnye Vody
+NAL	Nalchik	Nalchik
+NBC	Naberevnye Chelny	Naberevnye Chelny
+NEF	Neftekamsk	Neftekamsk
+NER	Neryungri	Neryungri
+NFG	Nefteyugansk	Nefteyugansk
+NJC	Nizhnevartovsk	Nizhnevartovsk
+NNM	Naryan-Mar	Naryan-Mar
+NOI	Krymsk	Novorossijsk
+NOJ	Nojabrxsk	Nojabrxsk
+NOZ	Novokuznetsk	Novokuznetsk
+NUX	Novy Urengoy	Novy Urengoy
+NVR	Novgorod Airport	Novgorod
+NYM	Nadym	Nadym
+OEL	Orel	Orel
+OGZ	Beslan	Vladikavkaz
+OHO	Okhotsk	Okhotsk
+OKT	Oktiabrskij	Oktiabrskij
+OMS	Omsk	Omsk
+OSW	Orsk	Orsk
+OVB	Tolmachevo	Novosibirsk
+PEE	Bolshoe Savino	Perm
+PES	Petrozavodsk	Petrozavodsk
+PEX	Pechora	Pechora
+PEZ	Penza	Penza
+PKC	Yelizovo	Petropavlovsk-Kamchats
+PKV	Pskov	Pskov
+PVS	Provideniya Bay	Provideniya
+PVX	Provedenia	Provideniya
+PWE	Pevek	Pevek
+PYJ	Polyarnyj	Polyarnyj
+RAT	Raduzhnyi	Raduzhnyi
+REN	Orenburg	Orenburg
+ROV	Rostov	Rostov
+RTW	Saratov	Saratov
+RVH	Rzhevka	St Petersburg
+RYB	Rybinsk	Rybinsk
+RZN	Turlatovo	Ryazan
+SCW	Syktyvkar	Syktyvkar
+SGC	Surgut	Surgut
+SKX	Saransk	Saransk
+SLY	Salekhard	Salekhard
+STW	Stavropol	Stavropol
+SVO	Sheremetyevo	Moscow
+SVX	Koltsovo International Airport	Ekaterinburg
+SWT	Strzhewoi	Strzhewoi
+TBW	Tambov	Tambov
+TJM	Roschino	Tyumen
+TOF	Bogashevo	Tomsk
+TOX	Tobolsk	Tobolsk
+TYA	Tula	Tula
+TYD	Tynda	Tynda
+UCT	Ukhta	Ukhta
+UFA	Ufa	Ufa
+UIK	Ust-Ilimsk	Ust-Ilimsk
+UKX	Ust-Kut	Ust-Kut
+ULY	Vostochny	Ulyanovsk
+URJ	Uraj	Uraj
+URS	Kursk	Kursk
+USK	Usinsk	Usinsk
+UUA	Bugulma	Bugulma
+UUD	Mukhino	Ulan-ude
+UUS	Yuzhno-Sakhalinsk	Yuzhno-Sakhalinsk
+VGD	Vologda	Vologda
+VKO	Vnukovo	Moscow
+VKT	Vorkuta	Vorkuta
+VLK	Volgodonsk	Volgodonsk
+VLU	Velikiye Luki	Velikiye Luki
+VOG	Volgograd	Volgograd
+VOZ	Chertovitskoye	Voronezh
+VUS	Velikij Ustyug	Velikij Ustyug
+VVO	Vladivostok	Vladivostok
+YKS	Yakutsk	Yakutsk
