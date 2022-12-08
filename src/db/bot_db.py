@@ -16,6 +16,8 @@ class DBStatus(Enum):
 
 class BotDB:
     def __init__(self, path):
+        self.conn = None
+        self.path = path
         try:
             self.conn = sqlite3.connect(path, check_same_thread=False)
             self.cursor = self.conn.cursor()
@@ -26,15 +28,19 @@ class BotDB:
 
     def add_group(self, g_name):  # добавить группу
         new_id = None
+        status = DBStatus.WARNING
         try:
             result = self.cursor.execute("INSERT INTO groups(g_name) VALUES((?))", (g_name,))
             new_id = result.lastrowid
+            status = DBStatus.SUCCESS
         except sqlite3.Error as error:
             logger.warning(error)
         self.conn.commit()
-        return new_id
+        return new_id, status
 
     def delete_group(self, g_id, g_name):  # удалить группу
+        if not self._check_access(g_id, g_name):
+            return DBStatus.BAD_ACCESS
         status = DBStatus.WARNING
         try:
             self.cursor.execute("DELETE FROM groups WHERE (g_id = (?) AND g_name = (?))",
@@ -46,7 +52,7 @@ class BotDB:
         return status
 
     def set_group_dates(self, g_id, g_name, flight, arrival) -> DBStatus:  # задать группе дату прибытия и отбытия
-        if not self.__check_access(g_id, g_name):
+        if not self._check_access(g_id, g_name):
             return DBStatus.BAD_ACCESS
         status = DBStatus.WARNING
         try:
@@ -59,7 +65,7 @@ class BotDB:
         return status
 
     def view_group(self, g_id, g_name):  # посмотреть участников группы
-        if not self.__check_access(g_id, g_name):
+        if not self._check_access(g_id, g_name):
             return None
         result = None
         try:
@@ -79,7 +85,7 @@ class BotDB:
         return result
 
     def add_user(self, g_id, g_name, u_name, city) -> DBStatus:  # добавить пользователя в группу
-        if not self.__check_access(g_id, g_name):
+        if not self._check_access(g_id, g_name):
             return DBStatus.BAD_ACCESS
         result = DBStatus.WARNING
         try:
@@ -97,7 +103,7 @@ class BotDB:
         return result
 
     def delete_user(self, g_id, g_name, u_name) -> DBStatus:  # убрать юзера из группы
-        if not self.__check_access(g_id, g_name):
+        if not self._check_access(g_id, g_name):
             return DBStatus.BAD_ACCESS
         status = DBStatus.WARNING
         try:
@@ -110,7 +116,7 @@ class BotDB:
         return status
 
     def update_user(self, g_id, g_name, u_name, new_city) -> DBStatus:  # обновить город пользователя
-        if not self.__check_access(g_id, g_name):
+        if not self._check_access(g_id, g_name):
             return DBStatus.BAD_ACCESS
         status = DBStatus.WARNING
         try:
@@ -131,7 +137,7 @@ class BotDB:
             logger.warning(error)
         return result
 
-    def __check_access(self, g_id, g_name):  # проверить совпадает ли id и имя группы
+    def _check_access(self, g_id, g_name):  # проверить совпадает ли id и имя группы
         result = False
         try:
             query = self.cursor.execute("SELECT g_name FROM groups WHERE g_id = (?)", (g_id,))
@@ -142,45 +148,35 @@ class BotDB:
             logger.warning(error)
         return result
 
-    def __del__(self):
-        self.conn.close()
-
-
-def create_table(path):  # дроп старых и создание новых таблиц
-    conn = None
-    status = DBStatus.WARNING
-    try:
-        conn = sqlite3.connect(path, check_same_thread=False)
-        cursor = conn.cursor()
-        cursor.execute("DROP TABLE groups")
-        cursor.execute("DROP TABLE users")
-    except sqlite3.Error as error:
-        logger.warning(error)
-    finally:
-        if conn:
-            conn.close()
-
-    try:
-        conn = sqlite3.connect(path, check_same_thread=False)
-        cursor = conn.cursor()
-        cursor.execute(
-            "CREATE TABLE groups("
-            "g_id INTEGER PRIMARY KEY, "
-            "g_name varchar(20) NOT NULL, "
-            "flight date, "
-            "arrival date)")
-        cursor.execute(
-            "CREATE TABLE users("
-            "u_name varchar(20) NOT NULL, "
-            "city varchar(20) NOT NULL, "
-            "g_id INTEGER NOT NULL, "
-            "FOREIGN KEY (g_id) REFERENCES groups(g_id) ON DELETE CASCADE)")
-        conn.commit()
-        status = DBStatus.SUCCESS
-    except sqlite3.Error as error:
-        logger.warning(error)
+    def recreate_table(self):  # дроп старых и создание новых таблиц
         status = DBStatus.WARNING
-    finally:
-        if conn:
-            conn.close()
-        return status
+        try:
+            self.cursor.execute("DROP TABLE groups")
+            self.cursor.execute("DROP TABLE users")
+        except sqlite3.Error as error:
+            logger.warning(error)
+
+        try:
+            self.cursor.execute(
+                "CREATE TABLE groups("
+                "g_id INTEGER PRIMARY KEY, "
+                "g_name varchar(20) NOT NULL, "
+                "flight date, "
+                "arrival date)")
+            self.cursor.execute(
+                "CREATE TABLE users("
+                "u_name varchar(20) NOT NULL, "
+                "city varchar(20) NOT NULL, "
+                "g_id INTEGER NOT NULL, "
+                "FOREIGN KEY (g_id) REFERENCES groups(g_id) ON DELETE CASCADE)")
+            self.conn.commit()
+            status = DBStatus.SUCCESS
+        except sqlite3.Error as error:
+            logger.warning(error)
+            status = DBStatus.WARNING
+        finally:
+            return status
+
+    def __del__(self):
+        if self.conn:
+            self.conn.close()
