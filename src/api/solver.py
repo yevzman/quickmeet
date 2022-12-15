@@ -14,6 +14,7 @@ class Solver:
             client_id=str(self.__api_key),
             client_secret=str(self.__api_secret)
         )
+        self.data = Data('./api/data.txt')
     
     def _get_flight_offers(self, orig, dest, date):
         response = self.amadeus.shopping.flight_offers_search.get(
@@ -30,13 +31,35 @@ class Solver:
         for item in data:
             price = float(item['price']['total'])
             now = min(now, price)
-        if now == 1000000000.0:
-            raise "Bad flight"
+        if len(data) == 0:
+            return None
         return now
 
+    def get_cheapest_cities_route(self, orig_city, dest_city, date):
+        if orig_city == dest_city:
+            return 0.0
+        airports1 = self.data.get_airports(orig_city)
+        airports2 = self.data.get_airports(dest_city)
+        min_price = 1000000000.0
+        any_flights = False
+        for air1 in airports1:
+            for air2 in airports2:
+                try:
+                    print(air1[0], air2[0])
+                    price = self.get_cheapest_price(air1[0], air2[0], date)
+                    if price is not None:
+                        any_flights = True
+                        print('flight', air1[0], air2[0], date, 'price', price)
+                        min_price = min(min_price, price)
+                except:
+                    continue
+        if any_flights:
+            return min_price
+            #There should be Database update (or should not)
+        return None
+
     def get_cheapest_meeting(self, people: list, date):
-        d = Data('./api/data.txt')
-#        cities = d.get_cities()
+#        cities = self.data.get_cities()
         cities = ['Moscow', 'St Petersburg', 'Novosibirsk', 'Ekaterinburg',
                     'Kazan', 'Nizhniy Novgorod', 'Chelyabinsk', 'Krasnojarsk',
                     'Samara', 'Ufa', 'Omsk', 'Krasnodar', 'Voronezh', 'Perm', 'Volgograd']
@@ -46,23 +69,8 @@ class Solver:
             sum = 0.0
             print('City:', city)
             for person in people:
-                if person.city == city:
-                    continue
-                airports1 = d.get_airports(person.city)
-                airports2 = d.get_airports(city)
-                min_price = 1000000000.0
-                any_flights = False
-                for air1 in airports1:
-                    for air2 in airports2:
-                        try:
-                            print(air1[0], air2[0])
-                            price = self._get_cheapest_price(air1[0], air2[0], date)
-                            any_flights = True
-                            print('flight', air1[0], air2[0], date, 'price', price)
-                            min_price = min(min_price, price)
-                        except:
-                            continue
-                if any_flights:
+                min_price = self.get_cheapest_cities_route(person.city, city, date)
+                if min_price is not None:
                     sum += min_price
                 else:
                     suitable_city = False
