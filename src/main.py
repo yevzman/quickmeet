@@ -3,7 +3,7 @@ import os
 import sys
 import logging
 import telebot
-from db.bot_db import BotDB, DBStatus
+from db.bot_db import UserGroupDB, DBStatus
 from api.solver import Person, Solver
 
 token = os.environ['TELEGRAM_BOT_TOKEN']
@@ -14,8 +14,9 @@ logging.basicConfig(format=FORMAT)
 logger = logging.getLogger(__name__)
 
 # auxiliary tools
-table: BotDB = None
+table: UserGroupDB = None
 solver: Solver = Solver()
+
 
 @bot.message_handler(commands=['start'], content_types=['text'])
 def start_handler(message):
@@ -28,9 +29,9 @@ def help_handler(message):
     text = 'Привет! Список допустимых команд: \n' \
            '/help - короткая информация о возможностях бота\n' \
            '/create_group groupName - создать группу с названием groupName и возвращает groupId, ' \
-                                           'по которому в дальнейшем можно делать операции с ней\n' \
+           'по которому в дальнейшем можно делать операции с ней\n' \
            '/add_user groupId groupName userName City\n добавить участника в группу groupId, с именем userName, ' \
-                                                                'который будет лететь из города City\n' \
+           'который будет лететь из города City\n' \
            '/delete_user groupId groupName userName City - удалить пользователя с именем userName из группы groupId\n' \
            '/view_group groupId groupName - посмотреть список всех участников группы groupId\n' \
            '/find_flights groupId groupName date - найти город, в который дешевле всего будет попасть группе groupId.\n' \
@@ -116,7 +117,7 @@ def view_group_handler(message):
     logger.info(f'View group {group_name} info: {group_list}')
     text = f'Список участников группы с id {group_id}:\n'
     if group_list is not None:
-        for user in  group_list:
+        for user in group_list:
             text += f'[name={user[0]}, city={user[1]}]\n'
     bot.send_message(message.from_user.id, text)
 
@@ -159,7 +160,7 @@ if __name__ == '__main__':
     logger.setLevel(level='INFO')
     logger.info('Starting bot')
     db_path = 'db/data.db'  # Позже будет доставаться из окружения
-    table = BotDB(db_path)
+    table = UserGroupDB(db_path)
     if len(sys.argv) == 1 or sys.argv[1] == '1':
         logger.info(f'create_table status: {table.recreate_table()}')
     bot.polling(none_stop=True, interval=0)

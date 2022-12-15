@@ -14,8 +14,8 @@ class DBStatus(Enum):
     ALREADY_EXIST = 4
 
 
-class BotDB:
-    def __init__(self, path):
+class UserGroupDB:
+    def __init__(self, path: str):
         self.conn = None
         self.path = path
         try:
@@ -26,7 +26,7 @@ class BotDB:
             logger.warning(error)
             raise error  # Критическая ситуация, иначе будет UB
 
-    def add_group(self, g_name):  # добавить группу
+    def add_group(self, g_name: str):  # добавить группу
         new_id = None
         status = DBStatus.WARNING
         try:
@@ -38,7 +38,7 @@ class BotDB:
         self.conn.commit()
         return new_id, status
 
-    def delete_group(self, g_id, g_name):  # удалить группу
+    def delete_group(self, g_id: int, g_name: str):  # удалить группу
         if not self._check_access(g_id, g_name):
             return DBStatus.BAD_ACCESS
         status = DBStatus.WARNING
@@ -51,7 +51,8 @@ class BotDB:
         self.conn.commit()
         return status
 
-    def set_group_dates(self, g_id, g_name, flight, arrival) -> DBStatus:  # задать группе дату прибытия и отбытия
+    def set_group_dates(self, g_id: int, g_name: str, flight: str,
+                        arrival: str) -> DBStatus:  # задать группе дату прибытия и отбытия
         if not self._check_access(g_id, g_name):
             return DBStatus.BAD_ACCESS
         status = DBStatus.WARNING
@@ -64,10 +65,10 @@ class BotDB:
         self.conn.commit()
         return status
 
-    def view_group(self, g_id, g_name):  # посмотреть участников группы
-        if not self._check_access(g_id, g_name):
-            return None
+    def view_group(self, g_id: int, g_name: str):  # посмотреть участников группы
         result = None
+        if not self._check_access(g_id, g_name):
+            return result
         try:
             query = self.cursor.execute("SELECT u_name, city FROM users WHERE g_id = (?)", (g_id,))
             result = query.fetchall()
@@ -84,7 +85,7 @@ class BotDB:
             logger.warning(error)
         return result
 
-    def add_user(self, g_id, g_name, u_name, city) -> DBStatus:  # добавить пользователя в группу
+    def add_user(self, g_id: int, g_name: str, u_name: str, city: str) -> DBStatus:  # добавить пользователя в группу
         if not self._check_access(g_id, g_name):
             return DBStatus.BAD_ACCESS
         result = DBStatus.WARNING
@@ -102,7 +103,7 @@ class BotDB:
         self.conn.commit()
         return result
 
-    def delete_user(self, g_id, g_name, u_name) -> DBStatus:  # убрать юзера из группы
+    def delete_user(self, g_id: int, g_name: str, u_name: str) -> DBStatus:  # убрать юзера из группы
         if not self._check_access(g_id, g_name):
             return DBStatus.BAD_ACCESS
         status = DBStatus.WARNING
@@ -115,7 +116,8 @@ class BotDB:
         self.conn.commit()
         return status
 
-    def update_user(self, g_id, g_name, u_name, new_city) -> DBStatus:  # обновить город пользователя
+    def update_user(self, g_id: int, g_name: str, u_name: str,
+                    new_city: str) -> DBStatus:  # обновить город пользователя
         if not self._check_access(g_id, g_name):
             return DBStatus.BAD_ACCESS
         status = DBStatus.WARNING
@@ -137,7 +139,7 @@ class BotDB:
             logger.warning(error)
         return result
 
-    def _check_access(self, g_id, g_name):  # проверить совпадает ли id и имя группы
+    def _check_access(self, g_id: int, g_name: str):  # проверить совпадает ли id и имя группы
         result = False
         try:
             query = self.cursor.execute("SELECT g_name FROM groups WHERE g_id = (?)", (g_id,))
