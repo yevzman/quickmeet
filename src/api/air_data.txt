@@ -1,0 +1,1380 @@
+Anapa	Moscow	1000000000.0
+Anapa	St Petersburg	1000000000.0
+Anapa	Novosibirsk	1000000000.0
+Anapa	Ekaterinburg	None
+Anapa	Kazan	1000000000.0
+Anapa	Nizhniy Novgorod	1000000000.0
+Anapa	Chelyabinsk	1000000000.0
+Abakan	Moscow	199.98
+Abakan	St Petersburg	216.0
+Abakan	Novosibirsk	119.22
+Abakan	Ekaterinburg	None
+Abakan	Kazan	228.16
+Abakan	Nizhniy Novgorod	231.93
+Abakan	Chelyabinsk	230.13
+Achinsk	Moscow	1000000000.0
+Achinsk	St Petersburg	1000000000.0
+Achinsk	Novosibirsk	1000000000.0
+Achinsk	Ekaterinburg	1000000000.0
+Achinsk	Kazan	1000000000.0
+Achinsk	Nizhniy Novgorod	None
+Achinsk	Chelyabinsk	1000000000.0
+Aldan	Moscow	1000000000.0
+Aldan	St Petersburg	1000000000.0
+Aldan	Novosibirsk	1000000000.0
+Aldan	Ekaterinburg	1000000000.0
+Aldan	Kazan	1000000000.0
+Aldan	Nizhniy Novgorod	1000000000.0
+Aldan	Chelyabinsk	1000000000.0
+Adler	Moscow	72.55
+Adler	St Petersburg	1000000000.0
+Adler	Novosibirsk	106.85
+Adler	Ekaterinburg	107.28
+Adler	Kazan	113.19
+Adler	Nizhniy Novgorod	144.56
+Adler	Chelyabinsk	145.16
+Amderma	Moscow	1000000000.0
+Amderma	St Petersburg	1000000000.0
+Amderma	Novosibirsk	1000000000.0
+Amderma	Ekaterinburg	1000000000.0
+Amderma	Kazan	1000000000.0
+Amderma	Nizhniy Novgorod	1000000000.0
+Amderma	Chelyabinsk	1000000000.0
+Arkhangelsk	Moscow	1000000000.0
+Arkhangelsk	St Petersburg	1000000000.0
+Arkhangelsk	Novosibirsk	1000000000.0
+Arkhangelsk	Ekaterinburg	1000000000.0
+Arkhangelsk	Kazan	1000000000.0
+Arkhangelsk	Nizhniy Novgorod	1000000000.0
+Arkhangelsk	Chelyabinsk	1000000000.0
+Astrakhan	Moscow	61.76
+Astrakhan	St Petersburg	102.75
+Astrakhan	Novosibirsk	None
+Astrakhan	Ekaterinburg	108.49
+Astrakhan	Kazan	114.4
+Astrakhan	Nizhniy Novgorod	116.77
+Astrakhan	Chelyabinsk	134.37
+Barnaul	Moscow	115.37
+Barnaul	St Petersburg	155.36
+Barnaul	Novosibirsk	196.13
+Barnaul	Ekaterinburg	162.1
+Barnaul	Kazan	168.01
+Barnaul	Nizhniy Novgorod	187.38
+Barnaul	Chelyabinsk	146.98
+Beloreck	Moscow	1000000000.0
+Beloreck	St Petersburg	1000000000.0
+Beloreck	Novosibirsk	None
+Beloreck	Ekaterinburg	1000000000.0
+Beloreck	Kazan	1000000000.0
+Beloreck	Nizhniy Novgorod	1000000000.0
+Beloreck	Chelyabinsk	1000000000.0
+Moscow	Moscow	0.0
+Moscow	St Petersburg	40.99
+Moscow	Novosibirsk	119.76
+Moscow	Ekaterinburg	89.73
+Moscow	Kazan	52.64
+Moscow	Nizhniy Novgorod	73.01
+Moscow	Chelyabinsk	72.61
+Blagoveschensk	Moscow	235.95
+Blagoveschensk	St Petersburg	276.94
+Blagoveschensk	Novosibirsk	290.35
+Blagoveschensk	Ekaterinburg	282.68
+Blagoveschensk	Kazan	288.59
+Blagoveschensk	Nizhniy Novgorod	308.96
+Blagoveschensk	Chelyabinsk	308.56
+Bratsk	Moscow	272.04
+Bratsk	St Petersburg	255.06
+Bratsk	Novosibirsk	171.28
+Bratsk	Ekaterinburg	295.31
+Bratsk	Kazan	299.22
+Bratsk	Nizhniy Novgorod	344.05
+Bratsk	Chelyabinsk	285.28
+Balakovo	Moscow	1000000000.0
+Balakovo	St Petersburg	1000000000.0
+Balakovo	Novosibirsk	1000000000.0
+Balakovo	Ekaterinburg	None
+Balakovo	Kazan	1000000000.0
+Balakovo	Nizhniy Novgorod	1000000000.0
+Balakovo	Chelyabinsk	1000000000.0
+Briansk	Moscow	1000000000.0
+Briansk	St Petersburg	1000000000.0
+Briansk	Novosibirsk	1000000000.0
+Briansk	Ekaterinburg	1000000000.0
+Briansk	Kazan	1000000000.0
+Briansk	Nizhniy Novgorod	1000000000.0
+Briansk	Chelyabinsk	1000000000.0
+Cherepovets	Moscow	99.79
+Cherepovets	St Petersburg	99.79
+Cherepovets	Novosibirsk	None
+Cherepovets	Ekaterinburg	1000000000.0
+Cherepovets	Kazan	1000000000.0
+Cherepovets	Nizhniy Novgorod	1000000000.0
+Cherepovets	Chelyabinsk	1000000000.0
+Chelyabinsk	Moscow	72.61
+Chelyabinsk	St Petersburg	113.6
+Chelyabinsk	Novosibirsk	114.0
+Chelyabinsk	Ekaterinburg	101.34
+Chelyabinsk	Kazan	125.25
+Chelyabinsk	Nizhniy Novgorod	139.62
+Chelyabinsk	Chelyabinsk	0.0
+Chokurdah	Moscow	1000000000.0
+Chokurdah	St Petersburg	1000000000.0
+Chokurdah	Novosibirsk	1000000000.0
+Chokurdah	Ekaterinburg	1000000000.0
+Chokurdah	Kazan	1000000000.0
+Chokurdah	Nizhniy Novgorod	1000000000.0
+Chokurdah	Chelyabinsk	1000000000.0
+Chkalovsky	Moscow	1000000000.0
+Chkalovsky	St Petersburg	1000000000.0
+Chkalovsky	Novosibirsk	1000000000.0
+Chkalovsky	Ekaterinburg	1000000000.0
+Chkalovsky	Kazan	1000000000.0
+Chkalovsky	Nizhniy Novgorod	1000000000.0
+Chkalovsky	Chelyabinsk	1000000000.0
+Chulman	Moscow	1100.88
+Chulman	St Petersburg	1159.15
+Chulman	Novosibirsk	916.05
+Chulman	Ekaterinburg	1000000000.0
+Chulman	Kazan	1000000000.0
+Chulman	Nizhniy Novgorod	1000000000.0
+Chulman	Chelyabinsk	1000000000.0
+Solovetsky	Moscow	1000000000.0
+Solovetsky	St Petersburg	1000000000.0
+Solovetsky	Novosibirsk	1000000000.0
+Solovetsky	Ekaterinburg	None
+Solovetsky	Kazan	1000000000.0
+Solovetsky	Nizhniy Novgorod	1000000000.0
+Solovetsky	Chelyabinsk	1000000000.0
+Cheboksary	Moscow	1000000000.0
+Cheboksary	St Petersburg	1000000000.0
+Cheboksary	Novosibirsk	1000000000.0
+Cheboksary	Ekaterinburg	1000000000.0
+Cheboksary	Kazan	1000000000.0
+Cheboksary	Nizhniy Novgorod	1000000000.0
+Cheboksary	Chelyabinsk	1000000000.0
+Cherskiy	Moscow	1000000000.0
+Cherskiy	St Petersburg	1000000000.0
+Cherskiy	Novosibirsk	1000000000.0
+Cherskiy	Ekaterinburg	1000000000.0
+Cherskiy	Kazan	1000000000.0
+Cherskiy	Nizhniy Novgorod	1000000000.0
+Cherskiy	Chelyabinsk	1000000000.0
+Dikson	Moscow	1000000000.0
+Dikson	St Petersburg	1000000000.0
+Dikson	Novosibirsk	1000000000.0
+Dikson	Ekaterinburg	1000000000.0
+Dikson	Kazan	None
+Dikson	Nizhniy Novgorod	1000000000.0
+Dikson	Chelyabinsk	1000000000.0
+Anadyr	Moscow	1000000000.0
+Anadyr	St Petersburg	1000000000.0
+Anadyr	Novosibirsk	1000000000.0
+Anadyr	Ekaterinburg	1000000000.0
+Anadyr	Kazan	1000000000.0
+Anadyr	Nizhniy Novgorod	1000000000.0
+Anadyr	Chelyabinsk	1000000000.0
+Belgorod	Moscow	1000000000.0
+Belgorod	St Petersburg	1000000000.0
+Belgorod	Novosibirsk	1000000000.0
+Belgorod	Ekaterinburg	1000000000.0
+Belgorod	Kazan	None
+Belgorod	Nizhniy Novgorod	1000000000.0
+Belgorod	Chelyabinsk	1000000000.0
+Eniseysk	Moscow	1000000000.0
+Eniseysk	St Petersburg	1000000000.0
+Eniseysk	Novosibirsk	None
+Eniseysk	Ekaterinburg	1000000000.0
+Eniseysk	Kazan	1000000000.0
+Eniseysk	Nizhniy Novgorod	1000000000.0
+Eniseysk	Chelyabinsk	1000000000.0
+Elista	Moscow	1000000000.0
+Elista	St Petersburg	1000000000.0
+Elista	Novosibirsk	1000000000.0
+Elista	Ekaterinburg	1000000000.0
+Elista	Kazan	1000000000.0
+Elista	Nizhniy Novgorod	1000000000.0
+Elista	Chelyabinsk	None
+Magdagachi	Moscow	1000000000.0
+Magdagachi	St Petersburg	1000000000.0
+Magdagachi	Novosibirsk	1000000000.0
+Magdagachi	Ekaterinburg	1000000000.0
+Magdagachi	Kazan	1000000000.0
+Magdagachi	Nizhniy Novgorod	1000000000.0
+Magdagachi	Chelyabinsk	1000000000.0
+Magadan	Moscow	331.4
+Magadan	St Petersburg	329.42
+Magadan	Novosibirsk	301.64
+Magadan	Ekaterinburg	328.67
+Magadan	Kazan	328.58
+Magadan	Nizhniy Novgorod	403.41
+Magadan	Chelyabinsk	329.55
+Gelendzik	Moscow	1000000000.0
+Gelendzik	St Petersburg	1000000000.0
+Gelendzik	Novosibirsk	1000000000.0
+Gelendzik	Ekaterinburg	1000000000.0
+Gelendzik	Kazan	1000000000.0
+Gelendzik	Nizhniy Novgorod	1000000000.0
+Gelendzik	Chelyabinsk	None
+Nizhniy Novgorod	Moscow	73.01
+Nizhniy Novgorod	St Petersburg	95.0
+Nizhniy Novgorod	Novosibirsk	191.77
+Nizhniy Novgorod	Ekaterinburg	119.74
+Nizhniy Novgorod	Kazan	95.65
+Nizhniy Novgorod	Nizhniy Novgorod	0.0
+Nizhniy Novgorod	Chelyabinsk	139.62
+Groznyj	Moscow	67.75
+Groznyj	St Petersburg	108.74
+Groznyj	Novosibirsk	118.0
+Groznyj	Ekaterinburg	114.48
+Groznyj	Kazan	120.39
+Groznyj	Nizhniy Novgorod	137.76
+Groznyj	Chelyabinsk	140.36
+Khanty-mansiysk	Moscow	1000000000.0
+Khanty-mansiysk	St Petersburg	172.78
+Khanty-mansiysk	Novosibirsk	76.0
+Khanty-mansiysk	Ekaterinburg	181.03
+Khanty-mansiysk	Kazan	233.94
+Khanty-mansiysk	Nizhniy Novgorod	267.77
+Khanty-mansiysk	Chelyabinsk	189.0
+Chita	Moscow	237.26
+Chita	St Petersburg	230.28
+Chita	Novosibirsk	209.5
+Chita	Ekaterinburg	283.99
+Chita	Kazan	289.9
+Chita	Nizhniy Novgorod	309.27
+Chita	Chelyabinsk	309.87
+Hatanga	Moscow	1000000000.0
+Hatanga	St Petersburg	1000000000.0
+Hatanga	Novosibirsk	1000000000.0
+Hatanga	Ekaterinburg	1000000000.0
+Hatanga	Kazan	1000000000.0
+Hatanga	Nizhniy Novgorod	1000000000.0
+Hatanga	Chelyabinsk	1000000000.0
+Igarka	Moscow	1000000000.0
+Igarka	St Petersburg	1000000000.0
+Igarka	Novosibirsk	1000000000.0
+Igarka	Ekaterinburg	1000000000.0
+Igarka	Kazan	1000000000.0
+Igarka	Nizhniy Novgorod	1000000000.0
+Igarka	Chelyabinsk	1000000000.0
+Yaroslavl	Moscow	1000000000.0
+Yaroslavl	St Petersburg	1000000000.0
+Yaroslavl	Novosibirsk	1000000000.0
+Yaroslavl	Ekaterinburg	1000000000.0
+Yaroslavl	Kazan	1000000000.0
+Yaroslavl	Nizhniy Novgorod	1000000000.0
+Yaroslavl	Chelyabinsk	1000000000.0
+Izhevsk	Moscow	1000000000.0
+Izhevsk	St Petersburg	1000000000.0
+Izhevsk	Novosibirsk	1000000000.0
+Izhevsk	Ekaterinburg	1000000000.0
+Izhevsk	Kazan	1000000000.0
+Izhevsk	Nizhniy Novgorod	1000000000.0
+Izhevsk	Chelyabinsk	1000000000.0
+Tiksi	Moscow	1000000000.0
+Tiksi	St Petersburg	1000000000.0
+Tiksi	Novosibirsk	1000000000.0
+Tiksi	Ekaterinburg	None
+Tiksi	Kazan	1000000000.0
+Tiksi	Nizhniy Novgorod	1000000000.0
+Tiksi	Chelyabinsk	1000000000.0
+Irkutsk	Moscow	130.63
+Irkutsk	St Petersburg	149.65
+Irkutsk	Novosibirsk	None
+Irkutsk	Ekaterinburg	129.9
+Irkutsk	Kazan	183.27
+Irkutsk	Nizhniy Novgorod	202.64
+Irkutsk	Chelyabinsk	202.24
+Inta	Moscow	1000000000.0
+Inta	St Petersburg	1000000000.0
+Inta	Novosibirsk	1000000000.0
+Inta	Ekaterinburg	1000000000.0
+Inta	Kazan	1000000000.0
+Inta	Nizhniy Novgorod	1000000000.0
+Inta	Chelyabinsk	1000000000.0
+Ivanovo	Moscow	1000000000.0
+Ivanovo	St Petersburg	1000000000.0
+Ivanovo	Novosibirsk	1000000000.0
+Ivanovo	Ekaterinburg	1000000000.0
+Ivanovo	Kazan	1000000000.0
+Ivanovo	Nizhniy Novgorod	1000000000.0
+Ivanovo	Chelyabinsk	None
+Joshkar-Ola	Moscow	1000000000.0
+Joshkar-Ola	St Petersburg	1000000000.0
+Joshkar-Ola	Novosibirsk	1000000000.0
+Joshkar-Ola	Ekaterinburg	1000000000.0
+Joshkar-Ola	Kazan	1000000000.0
+Joshkar-Ola	Nizhniy Novgorod	1000000000.0
+Joshkar-Ola	Chelyabinsk	1000000000.0
+Kemerovo	Moscow	131.76
+Kemerovo	St Petersburg	108.78
+Kemerovo	Novosibirsk	13.0
+Kemerovo	Ekaterinburg	136.03
+Kemerovo	Kazan	171.0
+Kemerovo	Nizhniy Novgorod	203.77
+Kemerovo	Chelyabinsk	126.0
+Kaliningrad	Moscow	51.55
+Kaliningrad	St Petersburg	91.54
+Kaliningrad	Novosibirsk	170.31
+Kaliningrad	Ekaterinburg	78.28
+Kaliningrad	Kazan	104.19
+Kaliningrad	Nizhniy Novgorod	117.56
+Kaliningrad	Chelyabinsk	124.16
+Kogalym	Moscow	1000000000.0
+Kogalym	St Petersburg	1000000000.0
+Kogalym	Novosibirsk	None
+Kogalym	Ekaterinburg	1000000000.0
+Kogalym	Kazan	1000000000.0
+Kogalym	Nizhniy Novgorod	1000000000.0
+Kogalym	Chelyabinsk	1000000000.0
+Khabarovsk	Moscow	274.06
+Khabarovsk	St Petersburg	284.08
+Khabarovsk	Novosibirsk	None
+Khabarovsk	Ekaterinburg	303.33
+Khabarovsk	Kazan	326.7
+Khabarovsk	Nizhniy Novgorod	346.07
+Khabarovsk	Chelyabinsk	346.67
+Krasnojarsk	Moscow	131.36
+Krasnojarsk	St Petersburg	145.35
+Krasnojarsk	Novosibirsk	69.66
+Krasnojarsk	Ekaterinburg	98.69
+Krasnojarsk	Kazan	184.0
+Krasnojarsk	Nizhniy Novgorod	170.97
+Krasnojarsk	Chelyabinsk	165.57
+Tver	Moscow	1000000000.0
+Tver	St Petersburg	1000000000.0
+Tver	Novosibirsk	1000000000.0
+Tver	Ekaterinburg	1000000000.0
+Tver	Kazan	1000000000.0
+Tver	Nizhniy Novgorod	1000000000.0
+Tver	Chelyabinsk	1000000000.0
+Kaluga	Moscow	1000000000.0
+Kaluga	St Petersburg	1000000000.0
+Kaluga	Novosibirsk	1000000000.0
+Kaluga	Ekaterinburg	1000000000.0
+Kaluga	Kazan	1000000000.0
+Kaluga	Nizhniy Novgorod	1000000000.0
+Kaluga	Chelyabinsk	1000000000.0
+Kostroma	Moscow	1000000000.0
+Kostroma	St Petersburg	1000000000.0
+Kostroma	Novosibirsk	1000000000.0
+Kostroma	Ekaterinburg	1000000000.0
+Kostroma	Kazan	1000000000.0
+Kostroma	Nizhniy Novgorod	1000000000.0
+Kostroma	Chelyabinsk	1000000000.0
+Kurgan	Moscow	1000000000.0
+Kurgan	St Petersburg	1000000000.0
+Kurgan	Novosibirsk	1000000000.0
+Kurgan	Ekaterinburg	1000000000.0
+Kurgan	Kazan	1000000000.0
+Kurgan	Nizhniy Novgorod	1000000000.0
+Kurgan	Chelyabinsk	1000000000.0
+Krasnodar	Moscow	1000000000.0
+Krasnodar	St Petersburg	1000000000.0
+Krasnodar	Novosibirsk	1000000000.0
+Krasnodar	Ekaterinburg	1000000000.0
+Krasnodar	Kazan	1000000000.0
+Krasnodar	Nizhniy Novgorod	1000000000.0
+Krasnodar	Chelyabinsk	None
+Kotlas	Moscow	1000000000.0
+Kotlas	St Petersburg	1000000000.0
+Kotlas	Novosibirsk	1000000000.0
+Kotlas	Ekaterinburg	1000000000.0
+Kotlas	Kazan	1000000000.0
+Kotlas	Nizhniy Novgorod	1000000000.0
+Kotlas	Chelyabinsk	1000000000.0
+Samara	Moscow	41.32
+Samara	St Petersburg	81.31
+Samara	Novosibirsk	160.08
+Samara	Ekaterinburg	78.05
+Samara	Kazan	72.96
+Samara	Nizhniy Novgorod	113.33
+Samara	Chelyabinsk	85.93
+Kirovsk	Moscow	93.55
+Kirovsk	St Petersburg	108.94
+Kirovsk	Novosibirsk	178.31
+Kirovsk	Ekaterinburg	124.28
+Kirovsk	Kazan	125.19
+Kirovsk	Nizhniy Novgorod	162.56
+Kirovsk	Chelyabinsk	129.16
+Kirov	Moscow	1000000000.0
+Kirov	St Petersburg	1000000000.0
+Kirov	Novosibirsk	1000000000.0
+Kirov	Ekaterinburg	1000000000.0
+Kirov	Kazan	None
+Kirov	Nizhniy Novgorod	1000000000.0
+Kirov	Chelyabinsk	1000000000.0
+Komsomolsk Na Amure	Moscow	1000000000.0
+Komsomolsk Na Amure	St Petersburg	1000000000.0
+Komsomolsk Na Amure	Novosibirsk	1000000000.0
+Komsomolsk Na Amure	Ekaterinburg	1000000000.0
+Komsomolsk Na Amure	Kazan	1000000000.0
+Komsomolsk Na Amure	Nizhniy Novgorod	1000000000.0
+Komsomolsk Na Amure	Chelyabinsk	1000000000.0
+Kyzyl	Moscow	1000000000.0
+Kyzyl	St Petersburg	1000000000.0
+Kyzyl	Novosibirsk	1000000000.0
+Kyzyl	Ekaterinburg	1000000000.0
+Kyzyl	Kazan	1000000000.0
+Kyzyl	Nizhniy Novgorod	1000000000.0
+Kyzyl	Chelyabinsk	1000000000.0
+Kazan	Moscow	52.64
+Kazan	St Petersburg	93.63
+Kazan	Novosibirsk	158.94
+Kazan	Ekaterinburg	99.37
+Kazan	Kazan	0.0
+Kazan	Nizhniy Novgorod	95.65
+Kazan	Chelyabinsk	125.25
+Leshukonskoye	Moscow	1000000000.0
+Leshukonskoye	St Petersburg	1000000000.0
+Leshukonskoye	Novosibirsk	1000000000.0
+Leshukonskoye	Ekaterinburg	1000000000.0
+Leshukonskoye	Kazan	1000000000.0
+Leshukonskoye	Nizhniy Novgorod	1000000000.0
+Leshukonskoye	Chelyabinsk	1000000000.0
+St Petersburg	Moscow	40.99
+St Petersburg	St Petersburg	0.0
+St Petersburg	Novosibirsk	96.78
+St Petersburg	Ekaterinburg	87.72
+St Petersburg	Kazan	93.63
+St Petersburg	Nizhniy Novgorod	94.0
+St Petersburg	Chelyabinsk	113.6
+Smolensk	Moscow	1000000000.0
+Smolensk	St Petersburg	1000000000.0
+Smolensk	Novosibirsk	1000000000.0
+Smolensk	Ekaterinburg	1000000000.0
+Smolensk	Kazan	1000000000.0
+Smolensk	Nizhniy Novgorod	1000000000.0
+Smolensk	Chelyabinsk	1000000000.0
+Lipetsk	Moscow	1000000000.0
+Lipetsk	St Petersburg	1000000000.0
+Lipetsk	Novosibirsk	1000000000.0
+Lipetsk	Ekaterinburg	1000000000.0
+Lipetsk	Kazan	1000000000.0
+Lipetsk	Nizhniy Novgorod	1000000000.0
+Lipetsk	Chelyabinsk	1000000000.0
+Makhachkala	Moscow	54.51
+Makhachkala	St Petersburg	1000000000.0
+Makhachkala	Novosibirsk	174.27
+Makhachkala	Ekaterinburg	101.24
+Makhachkala	Kazan	107.15
+Makhachkala	Nizhniy Novgorod	126.52
+Makhachkala	Chelyabinsk	127.12
+Mirnyj	Moscow	1000000000.0
+Mirnyj	St Petersburg	1000000000.0
+Mirnyj	Novosibirsk	1000000000.0
+Mirnyj	Ekaterinburg	1000000000.0
+Mirnyj	Kazan	1000000000.0
+Mirnyj	Nizhniy Novgorod	None
+Mirnyj	Chelyabinsk	1000000000.0
+Murmansk	Moscow	62.45
+Murmansk	St Petersburg	102.44
+Murmansk	Novosibirsk	181.21
+Murmansk	Ekaterinburg	108.18
+Murmansk	Kazan	115.09
+Murmansk	Nizhniy Novgorod	134.46
+Murmansk	Chelyabinsk	134.06
+Magnitogorsk	Moscow	1000000000.0
+Magnitogorsk	St Petersburg	1000000000.0
+Magnitogorsk	Novosibirsk	1000000000.0
+Magnitogorsk	Ekaterinburg	1000000000.0
+Magnitogorsk	Kazan	1000000000.0
+Magnitogorsk	Nizhniy Novgorod	1000000000.0
+Magnitogorsk	Chelyabinsk	1000000000.0
+Mineralnye Vody	Moscow	62.4
+Mineralnye Vody	St Petersburg	102.39
+Mineralnye Vody	Novosibirsk	168.7
+Mineralnye Vody	Ekaterinburg	109.13
+Mineralnye Vody	Kazan	115.04
+Mineralnye Vody	Nizhniy Novgorod	134.41
+Mineralnye Vody	Chelyabinsk	130.01
+Nalchik	Moscow	1000000000.0
+Nalchik	St Petersburg	1000000000.0
+Nalchik	Novosibirsk	1000000000.0
+Nalchik	Ekaterinburg	1000000000.0
+Nalchik	Kazan	1000000000.0
+Nalchik	Nizhniy Novgorod	1000000000.0
+Nalchik	Chelyabinsk	1000000000.0
+Naberevnye Chelny	Moscow	1000000000.0
+Naberevnye Chelny	St Petersburg	1000000000.0
+Naberevnye Chelny	Novosibirsk	1000000000.0
+Naberevnye Chelny	Ekaterinburg	1000000000.0
+Naberevnye Chelny	Kazan	1000000000.0
+Naberevnye Chelny	Nizhniy Novgorod	1000000000.0
+Naberevnye Chelny	Chelyabinsk	1000000000.0
+Neftekamsk	Moscow	1000000000.0
+Neftekamsk	St Petersburg	1000000000.0
+Neftekamsk	Novosibirsk	1000000000.0
+Neftekamsk	Ekaterinburg	1000000000.0
+Neftekamsk	Kazan	1000000000.0
+Neftekamsk	Nizhniy Novgorod	1000000000.0
+Neftekamsk	Chelyabinsk	1000000000.0
+Neryungri	Moscow	252.79
+Neryungri	St Petersburg	281.81
+Neryungri	Novosibirsk	212.03
+Neryungri	Ekaterinburg	267.06
+Neryungri	Kazan	305.43
+Neryungri	Nizhniy Novgorod	324.8
+Neryungri	Chelyabinsk	308.94
+Nefteyugansk	Moscow	1000000000.0
+Nefteyugansk	St Petersburg	1000000000.0
+Nefteyugansk	Novosibirsk	1000000000.0
+Nefteyugansk	Ekaterinburg	1000000000.0
+Nefteyugansk	Kazan	None
+Nefteyugansk	Nizhniy Novgorod	1000000000.0
+Nefteyugansk	Chelyabinsk	1000000000.0
+Nizhnevartovsk	Moscow	162.57
+Nizhnevartovsk	St Petersburg	168.59
+Nizhnevartovsk	Novosibirsk	113.81
+Nizhnevartovsk	Ekaterinburg	143.84
+Nizhnevartovsk	Kazan	192.75
+Nizhnevartovsk	Nizhniy Novgorod	234.58
+Nizhnevartovsk	Chelyabinsk	180.18
+Naryan-Mar	Moscow	1000000000.0
+Naryan-Mar	St Petersburg	1000000000.0
+Naryan-Mar	Novosibirsk	1000000000.0
+Naryan-Mar	Ekaterinburg	1000000000.0
+Naryan-Mar	Kazan	1000000000.0
+Naryan-Mar	Nizhniy Novgorod	None
+Naryan-Mar	Chelyabinsk	1000000000.0
+Novorossijsk	Moscow	1000000000.0
+Novorossijsk	St Petersburg	1000000000.0
+Novorossijsk	Novosibirsk	1000000000.0
+Novorossijsk	Ekaterinburg	1000000000.0
+Novorossijsk	Kazan	1000000000.0
+Novorossijsk	Nizhniy Novgorod	1000000000.0
+Novorossijsk	Chelyabinsk	1000000000.0
+Nojabrxsk	Moscow	1000000000.0
+Nojabrxsk	St Petersburg	1000000000.0
+Nojabrxsk	Novosibirsk	1000000000.0
+Nojabrxsk	Ekaterinburg	1000000000.0
+Nojabrxsk	Kazan	1000000000.0
+Nojabrxsk	Nizhniy Novgorod	1000000000.0
+Nojabrxsk	Chelyabinsk	1000000000.0
+Novokuznetsk	Moscow	159.76
+Novokuznetsk	St Petersburg	136.78
+Novokuznetsk	Novosibirsk	40.0
+Novokuznetsk	Ekaterinburg	164.03
+Novokuznetsk	Kazan	198.94
+Novokuznetsk	Nizhniy Novgorod	226.29
+Novokuznetsk	Chelyabinsk	154.0
+Novy Urengoy	Moscow	161.49
+Novy Urengoy	St Petersburg	1000000000.0
+Novy Urengoy	Novosibirsk	132.79
+Novy Urengoy	Ekaterinburg	145.82
+Novy Urengoy	Kazan	175.73
+Novy Urengoy	Nizhniy Novgorod	200.5
+Novy Urengoy	Chelyabinsk	144.7
+Novgorod	Moscow	1000000000.0
+Novgorod	St Petersburg	1000000000.0
+Novgorod	Novosibirsk	1000000000.0
+Novgorod	Ekaterinburg	1000000000.0
+Novgorod	Kazan	None
+Novgorod	Nizhniy Novgorod	1000000000.0
+Novgorod	Chelyabinsk	1000000000.0
+Nadym	Moscow	208.74
+Nadym	St Petersburg	196.78
+Nadym	Novosibirsk	100.0
+Nadym	Ekaterinburg	205.03
+Nadym	Kazan	258.94
+Nadym	Nizhniy Novgorod	291.77
+Nadym	Chelyabinsk	214.0
+Orel	Moscow	1000000000.0
+Orel	St Petersburg	1000000000.0
+Orel	Novosibirsk	1000000000.0
+Orel	Ekaterinburg	1000000000.0
+Orel	Kazan	1000000000.0
+Orel	Nizhniy Novgorod	None
+Orel	Chelyabinsk	1000000000.0
+Vladikavkaz	Moscow	58.73
+Vladikavkaz	St Petersburg	99.72
+Vladikavkaz	Novosibirsk	178.49
+Vladikavkaz	Ekaterinburg	105.46
+Vladikavkaz	Kazan	111.37
+Vladikavkaz	Nizhniy Novgorod	131.74
+Vladikavkaz	Chelyabinsk	131.34
+Okhotsk	Moscow	1000000000.0
+Okhotsk	St Petersburg	1000000000.0
+Okhotsk	Novosibirsk	1000000000.0
+Okhotsk	Ekaterinburg	1000000000.0
+Okhotsk	Kazan	1000000000.0
+Okhotsk	Nizhniy Novgorod	1000000000.0
+Okhotsk	Chelyabinsk	1000000000.0
+Oktiabrskij	Moscow	1000000000.0
+Oktiabrskij	St Petersburg	1000000000.0
+Oktiabrskij	Novosibirsk	1000000000.0
+Oktiabrskij	Ekaterinburg	1000000000.0
+Oktiabrskij	Kazan	1000000000.0
+Oktiabrskij	Nizhniy Novgorod	1000000000.0
+Oktiabrskij	Chelyabinsk	1000000000.0
+Omsk	Moscow	82.95
+Omsk	St Petersburg	110.94
+Omsk	Novosibirsk	61.25
+Omsk	Ekaterinburg	53.46
+Omsk	Kazan	135.59
+Omsk	Nizhniy Novgorod	102.02
+Omsk	Chelyabinsk	125.56
+Orsk	Moscow	1000000000.0
+Orsk	St Petersburg	1000000000.0
+Orsk	Novosibirsk	1000000000.0
+Orsk	Ekaterinburg	1000000000.0
+Orsk	Kazan	1000000000.0
+Orsk	Nizhniy Novgorod	1000000000.0
+Orsk	Chelyabinsk	1000000000.0
+Novosibirsk	Moscow	119.76
+Novosibirsk	St Petersburg	96.78
+Novosibirsk	Novosibirsk	0.0
+Novosibirsk	Ekaterinburg	124.03
+Novosibirsk	Kazan	158.94
+Novosibirsk	Nizhniy Novgorod	190.78
+Novosibirsk	Chelyabinsk	114.0
+Perm	Moscow	51.08
+Perm	St Petersburg	92.07
+Perm	Novosibirsk	123.38
+Perm	Ekaterinburg	85.81
+Perm	Kazan	80.72
+Perm	Nizhniy Novgorod	117.09
+Perm	Chelyabinsk	93.69
+Petrozavodsk	Moscow	1000000000.0
+Petrozavodsk	St Petersburg	1000000000.0
+Petrozavodsk	Novosibirsk	1000000000.0
+Petrozavodsk	Ekaterinburg	1000000000.0
+Petrozavodsk	Kazan	1000000000.0
+Petrozavodsk	Nizhniy Novgorod	1000000000.0
+Petrozavodsk	Chelyabinsk	1000000000.0
+Pechora	Moscow	1000000000.0
+Pechora	St Petersburg	1000000000.0
+Pechora	Novosibirsk	1000000000.0
+Pechora	Ekaterinburg	1000000000.0
+Pechora	Kazan	1000000000.0
+Pechora	Nizhniy Novgorod	1000000000.0
+Pechora	Chelyabinsk	1000000000.0
+Penza	Moscow	77.55
+Penza	St Petersburg	117.54
+Penza	Novosibirsk	196.31
+Penza	Ekaterinburg	124.28
+Penza	Kazan	104.19
+Penza	Nizhniy Novgorod	117.56
+Penza	Chelyabinsk	149.16
+Petropavlovsk-Kamchats	Moscow	340.82
+Petropavlovsk-Kamchats	St Petersburg	340.84
+Petropavlovsk-Kamchats	Novosibirsk	329.06
+Petropavlovsk-Kamchats	Ekaterinburg	341.09
+Petropavlovsk-Kamchats	Kazan	341.0
+Petropavlovsk-Kamchats	Nizhniy Novgorod	413.83
+Petropavlovsk-Kamchats	Chelyabinsk	340.97
+Pskov	Moscow	1000000000.0
+Pskov	St Petersburg	1000000000.0
+Pskov	Novosibirsk	1000000000.0
+Pskov	Ekaterinburg	1000000000.0
+Pskov	Kazan	1000000000.0
+Pskov	Nizhniy Novgorod	1000000000.0
+Pskov	Chelyabinsk	1000000000.0
+Provideniya	Moscow	1000000000.0
+Provideniya	St Petersburg	1000000000.0
+Provideniya	Novosibirsk	1000000000.0
+Provideniya	Ekaterinburg	1000000000.0
+Provideniya	Kazan	None
+Provideniya	Nizhniy Novgorod	1000000000.0
+Provideniya	Chelyabinsk	1000000000.0
+Pevek	Moscow	1000000000.0
+Pevek	St Petersburg	1000000000.0
+Pevek	Novosibirsk	1000000000.0
+Pevek	Ekaterinburg	1000000000.0
+Pevek	Kazan	1000000000.0
+Pevek	Nizhniy Novgorod	1000000000.0
+Pevek	Chelyabinsk	None
+Polyarnyj	Moscow	1000000000.0
+Polyarnyj	St Petersburg	1000000000.0
+Polyarnyj	Novosibirsk	1000000000.0
+Polyarnyj	Ekaterinburg	1000000000.0
+Polyarnyj	Kazan	1000000000.0
+Polyarnyj	Nizhniy Novgorod	1000000000.0
+Polyarnyj	Chelyabinsk	1000000000.0
+Raduzhnyi	Moscow	1000000000.0
+Raduzhnyi	St Petersburg	1000000000.0
+Raduzhnyi	Novosibirsk	1000000000.0
+Raduzhnyi	Ekaterinburg	1000000000.0
+Raduzhnyi	Kazan	1000000000.0
+Raduzhnyi	Nizhniy Novgorod	1000000000.0
+Raduzhnyi	Chelyabinsk	1000000000.0
+Orenburg	Moscow	1000000000.0
+Orenburg	St Petersburg	1000000000.0
+Orenburg	Novosibirsk	1000000000.0
+Orenburg	Ekaterinburg	1000000000.0
+Orenburg	Kazan	1000000000.0
+Orenburg	Nizhniy Novgorod	1000000000.0
+Orenburg	Chelyabinsk	1000000000.0
+Rostov	Moscow	1000000000.0
+Rostov	St Petersburg	1000000000.0
+Rostov	Novosibirsk	1000000000.0
+Rostov	Ekaterinburg	None
+Rostov	Kazan	1000000000.0
+Rostov	Nizhniy Novgorod	1000000000.0
+Rostov	Chelyabinsk	1000000000.0
+Saratov	Moscow	67.76
+Saratov	St Petersburg	108.75
+Saratov	Novosibirsk	None
+Saratov	Ekaterinburg	114.49
+Saratov	Kazan	98.4
+Saratov	Nizhniy Novgorod	140.77
+Saratov	Chelyabinsk	140.37
+Rybinsk	Moscow	1000000000.0
+Rybinsk	St Petersburg	1000000000.0
+Rybinsk	Novosibirsk	1000000000.0
+Rybinsk	Ekaterinburg	1000000000.0
+Rybinsk	Kazan	1000000000.0
+Rybinsk	Nizhniy Novgorod	1000000000.0
+Rybinsk	Chelyabinsk	1000000000.0
+Ryazan	Moscow	1000000000.0
+Ryazan	St Petersburg	1000000000.0
+Ryazan	Novosibirsk	1000000000.0
+Ryazan	Ekaterinburg	1000000000.0
+Ryazan	Kazan	1000000000.0
+Ryazan	Nizhniy Novgorod	1000000000.0
+Ryazan	Chelyabinsk	1000000000.0
+Syktyvkar	Moscow	1000000000.0
+Syktyvkar	St Petersburg	1000000000.0
+Syktyvkar	Novosibirsk	1000000000.0
+Syktyvkar	Ekaterinburg	1000000000.0
+Syktyvkar	Kazan	1000000000.0
+Syktyvkar	Nizhniy Novgorod	1000000000.0
+Syktyvkar	Chelyabinsk	1000000000.0
+Surgut	Moscow	174.13
+Surgut	St Petersburg	170.15
+Surgut	Novosibirsk	86.37
+Surgut	Ekaterinburg	154.4
+Surgut	Kazan	174.31
+Surgut	Nizhniy Novgorod	247.14
+Surgut	Chelyabinsk	156.28
+Saransk	Moscow	1000000000.0
+Saransk	St Petersburg	1000000000.0
+Saransk	Novosibirsk	1000000000.0
+Saransk	Ekaterinburg	1000000000.0
+Saransk	Kazan	1000000000.0
+Saransk	Nizhniy Novgorod	1000000000.0
+Saransk	Chelyabinsk	1000000000.0
+Salekhard	Moscow	1000000000.0
+Salekhard	St Petersburg	1000000000.0
+Salekhard	Novosibirsk	1000000000.0
+Salekhard	Ekaterinburg	1000000000.0
+Salekhard	Kazan	1000000000.0
+Salekhard	Nizhniy Novgorod	1000000000.0
+Salekhard	Chelyabinsk	1000000000.0
+Stavropol	Moscow	1000000000.0
+Stavropol	St Petersburg	1000000000.0
+Stavropol	Novosibirsk	1000000000.0
+Stavropol	Ekaterinburg	1000000000.0
+Stavropol	Kazan	1000000000.0
+Stavropol	Nizhniy Novgorod	1000000000.0
+Stavropol	Chelyabinsk	1000000000.0
+Ekaterinburg	Moscow	46.73
+Ekaterinburg	St Petersburg	87.72
+Ekaterinburg	Novosibirsk	124.03
+Ekaterinburg	Ekaterinburg	0.0
+Ekaterinburg	Kazan	99.37
+Ekaterinburg	Nizhniy Novgorod	119.74
+Ekaterinburg	Chelyabinsk	101.34
+Strzhewoi	Moscow	1000000000.0
+Strzhewoi	St Petersburg	1000000000.0
+Strzhewoi	Novosibirsk	1000000000.0
+Strzhewoi	Ekaterinburg	1000000000.0
+Strzhewoi	Kazan	1000000000.0
+Strzhewoi	Nizhniy Novgorod	1000000000.0
+Strzhewoi	Chelyabinsk	1000000000.0
+Tambov	Moscow	1000000000.0
+Tambov	St Petersburg	1000000000.0
+Tambov	Novosibirsk	1000000000.0
+Tambov	Ekaterinburg	1000000000.0
+Tambov	Kazan	1000000000.0
+Tambov	Nizhniy Novgorod	1000000000.0
+Tambov	Chelyabinsk	1000000000.0
+Tyumen	Moscow	175.7
+Tyumen	St Petersburg	168.72
+Tyumen	Novosibirsk	92.0
+Tyumen	Ekaterinburg	196.03
+Tyumen	Kazan	224.94
+Tyumen	Nizhniy Novgorod	235.0
+Tyumen	Chelyabinsk	199.91
+Tomsk	Moscow	139.76
+Tomsk	St Petersburg	117.78
+Tomsk	Novosibirsk	21.0
+Tomsk	Ekaterinburg	144.03
+Tomsk	Kazan	178.94
+Tomsk	Nizhniy Novgorod	185.24
+Tomsk	Chelyabinsk	134.0
+Tobolsk	Moscow	1000000000.0
+Tobolsk	St Petersburg	1000000000.0
+Tobolsk	Novosibirsk	1000000000.0
+Tobolsk	Ekaterinburg	1000000000.0
+Tobolsk	Kazan	1000000000.0
+Tobolsk	Nizhniy Novgorod	None
+Tobolsk	Chelyabinsk	1000000000.0
+Tula	Moscow	1000000000.0
+Tula	St Petersburg	1000000000.0
+Tula	Novosibirsk	1000000000.0
+Tula	Ekaterinburg	1000000000.0
+Tula	Kazan	None
+Tula	Nizhniy Novgorod	1000000000.0
+Tula	Chelyabinsk	1000000000.0
+Tynda	Moscow	1000000000.0
+Tynda	St Petersburg	1000000000.0
+Tynda	Novosibirsk	1000000000.0
+Tynda	Ekaterinburg	1000000000.0
+Tynda	Kazan	1000000000.0
+Tynda	Nizhniy Novgorod	1000000000.0
+Tynda	Chelyabinsk	1000000000.0
+Ukhta	Moscow	137.94
+Ukhta	St Petersburg	136.94
+Ukhta	Novosibirsk	1000000000.0
+Ukhta	Ekaterinburg	1000000000.0
+Ukhta	Kazan	1000000000.0
+Ukhta	Nizhniy Novgorod	1000000000.0
+Ukhta	Chelyabinsk	1000000000.0
+Ufa	Moscow	54.86
+Ufa	St Petersburg	94.85
+Ufa	Novosibirsk	115.16
+Ufa	Ekaterinburg	84.59
+Ufa	Kazan	79.5
+Ufa	Nizhniy Novgorod	117.87
+Ufa	Chelyabinsk	92.47
+Ust-Ilimsk	Moscow	1000000000.0
+Ust-Ilimsk	St Petersburg	1000000000.0
+Ust-Ilimsk	Novosibirsk	1000000000.0
+Ust-Ilimsk	Ekaterinburg	1000000000.0
+Ust-Ilimsk	Kazan	1000000000.0
+Ust-Ilimsk	Nizhniy Novgorod	1000000000.0
+Ust-Ilimsk	Chelyabinsk	1000000000.0
+Ust-Kut	Moscow	1000000000.0
+Ust-Kut	St Petersburg	1000000000.0
+Ust-Kut	Novosibirsk	1000000000.0
+Ust-Kut	Ekaterinburg	1000000000.0
+Ust-Kut	Kazan	1000000000.0
+Ust-Kut	Nizhniy Novgorod	1000000000.0
+Ust-Kut	Chelyabinsk	1000000000.0
+Ulyanovsk	Moscow	164.76
+Ulyanovsk	St Petersburg	138.78
+Ulyanovsk	Novosibirsk	61.0
+Ulyanovsk	Ekaterinburg	165.03
+Ulyanovsk	Kazan	193.94
+Ulyanovsk	Nizhniy Novgorod	None
+Ulyanovsk	Chelyabinsk	169.91
+Uraj	Moscow	1000000000.0
+Uraj	St Petersburg	1000000000.0
+Uraj	Novosibirsk	1000000000.0
+Uraj	Ekaterinburg	1000000000.0
+Uraj	Kazan	1000000000.0
+Uraj	Nizhniy Novgorod	None
+Uraj	Chelyabinsk	1000000000.0
+Kursk	Moscow	1000000000.0
+Kursk	St Petersburg	1000000000.0
+Kursk	Novosibirsk	1000000000.0
+Kursk	Ekaterinburg	1000000000.0
+Kursk	Kazan	1000000000.0
+Kursk	Nizhniy Novgorod	1000000000.0
+Kursk	Chelyabinsk	1000000000.0
+Usinsk	Moscow	1000000000.0
+Usinsk	St Petersburg	1000000000.0
+Usinsk	Novosibirsk	1000000000.0
+Usinsk	Ekaterinburg	1000000000.0
+Usinsk	Kazan	1000000000.0
+Usinsk	Nizhniy Novgorod	1000000000.0
+Usinsk	Chelyabinsk	1000000000.0
+Bugulma	Moscow	1000000000.0
+Bugulma	St Petersburg	1000000000.0
+Bugulma	Novosibirsk	1000000000.0
+Bugulma	Ekaterinburg	1000000000.0
+Bugulma	Kazan	1000000000.0
+Bugulma	Nizhniy Novgorod	None
+Bugulma	Chelyabinsk	1000000000.0
+Ulan-ude	Moscow	1000000000.0
+Ulan-ude	St Petersburg	258.81
+Ulan-ude	Novosibirsk	179.12
+Ulan-ude	Ekaterinburg	259.55
+Ulan-ude	Kazan	271.46
+Ulan-ude	Nizhniy Novgorod	261.83
+Ulan-ude	Chelyabinsk	261.43
+Yuzhno-Sakhalinsk	Moscow	340.95
+Yuzhno-Sakhalinsk	St Petersburg	341.97
+Yuzhno-Sakhalinsk	Novosibirsk	308.19
+Yuzhno-Sakhalinsk	Ekaterinburg	320.22
+Yuzhno-Sakhalinsk	Kazan	321.13
+Yuzhno-Sakhalinsk	Nizhniy Novgorod	413.96
+Yuzhno-Sakhalinsk	Chelyabinsk	320.1
+Vologda	Moscow	1000000000.0
+Vologda	St Petersburg	1000000000.0
+Vologda	Novosibirsk	1000000000.0
+Vologda	Ekaterinburg	1000000000.0
+Vologda	Kazan	1000000000.0
+Vologda	Nizhniy Novgorod	1000000000.0
+Vologda	Chelyabinsk	1000000000.0
+Vorkuta	Moscow	1000000000.0
+Vorkuta	St Petersburg	1000000000.0
+Vorkuta	Novosibirsk	1000000000.0
+Vorkuta	Ekaterinburg	1000000000.0
+Vorkuta	Kazan	None
+Vorkuta	Nizhniy Novgorod	1000000000.0
+Vorkuta	Chelyabinsk	1000000000.0
+Volgodonsk	Moscow	1000000000.0
+Volgodonsk	St Petersburg	1000000000.0
+Volgodonsk	Novosibirsk	1000000000.0
+Volgodonsk	Ekaterinburg	1000000000.0
+Volgodonsk	Kazan	1000000000.0
+Volgodonsk	Nizhniy Novgorod	1000000000.0
+Volgodonsk	Chelyabinsk	1000000000.0
+Velikiye Luki	Moscow	1000000000.0
+Velikiye Luki	St Petersburg	1000000000.0
+Velikiye Luki	Novosibirsk	1000000000.0
+Velikiye Luki	Ekaterinburg	1000000000.0
+Velikiye Luki	Kazan	1000000000.0
+Velikiye Luki	Nizhniy Novgorod	1000000000.0
+Velikiye Luki	Chelyabinsk	1000000000.0
+Volgograd	Moscow	151.22
+Volgograd	St Petersburg	204.78
+Volgograd	Novosibirsk	136.0
+Volgograd	Ekaterinburg	160.49
+Volgograd	Kazan	259.94
+Volgograd	Nizhniy Novgorod	260.0
+Volgograd	Chelyabinsk	260.91
+Voronezh	Moscow	1000000000.0
+Voronezh	St Petersburg	1000000000.0
+Voronezh	Novosibirsk	1000000000.0
+Voronezh	Ekaterinburg	1000000000.0
+Voronezh	Kazan	1000000000.0
+Voronezh	Nizhniy Novgorod	1000000000.0
+Voronezh	Chelyabinsk	1000000000.0
+Velikij Ustyug	Moscow	1000000000.0
+Velikij Ustyug	St Petersburg	1000000000.0
+Velikij Ustyug	Novosibirsk	1000000000.0
+Velikij Ustyug	Ekaterinburg	1000000000.0
+Velikij Ustyug	Kazan	1000000000.0
+Velikij Ustyug	Nizhniy Novgorod	None
+Velikij Ustyug	Chelyabinsk	1000000000.0
+Vladivostok	Moscow	262.06
+Vladivostok	St Petersburg	303.05
+Vladivostok	Novosibirsk	282.36
+Vladivostok	Ekaterinburg	277.33
+Vladivostok	Kazan	314.7
+Vladivostok	Nizhniy Novgorod	335.07
+Vladivostok	Chelyabinsk	334.67
+Yakutsk	Moscow	261.56
+Yakutsk	St Petersburg	244.58
+Yakutsk	Novosibirsk	239.86
+Yakutsk	Ekaterinburg	215.83
+Yakutsk	Kazan	254.0
+Yakutsk	Nizhniy Novgorod	318.77
+Yakutsk	Chelyabinsk	312.97
+Anapa	Krasnojarsk	1000000000.0
+Abakan	Krasnojarsk	165.88
+Achinsk	Krasnojarsk	None
+Aldan	Krasnojarsk	1000000000.0
+Adler	Krasnojarsk	174.91
+Amderma	Krasnojarsk	1000000000.0
+Arkhangelsk	Krasnojarsk	1000000000.0
+Astrakhan	Krasnojarsk	193.12
+Barnaul	Krasnojarsk	199.73
+Beloreck	Krasnojarsk	1000000000.0
+Moscow	Krasnojarsk	131.36
+Blagoveschensk	Krasnojarsk	292.31
+Bratsk	Krasnojarsk	198.94
+Balakovo	Krasnojarsk	1000000000.0
+Briansk	Krasnojarsk	1000000000.0
+Cherepovets	Krasnojarsk	None
+Chelyabinsk	Krasnojarsk	None
+Chokurdah	Krasnojarsk	1000000000.0
+Chkalovsky	Krasnojarsk	1000000000.0
+Chulman	Krasnojarsk	1000000000.0
+Solovetsky	Krasnojarsk	None
+Cheboksary	Krasnojarsk	1000000000.0
+Cherskiy	Krasnojarsk	1000000000.0
+Dikson	Krasnojarsk	1000000000.0
+Anadyr	Krasnojarsk	1000000000.0
+Belgorod	Krasnojarsk	1000000000.0
+Eniseysk	Krasnojarsk	1000000000.0
+Elista	Krasnojarsk	None
+Magdagachi	Krasnojarsk	1000000000.0
+Magadan	Krasnojarsk	289.76
+Gelendzik	Krasnojarsk	1000000000.0
+Nizhniy Novgorod	Krasnojarsk	None
+Groznyj	Krasnojarsk	186.66
+Khanty-mansiysk	Krasnojarsk	145.66
+Chita	Krasnojarsk	240.16
+Hatanga	Krasnojarsk	1000000000.0
+Igarka	Krasnojarsk	1000000000.0
+Yaroslavl	Krasnojarsk	1000000000.0
+Izhevsk	Krasnojarsk	1000000000.0
+Tiksi	Krasnojarsk	1000000000.0
+Irkutsk	Krasnojarsk	None
+Inta	Krasnojarsk	1000000000.0
+Ivanovo	Krasnojarsk	1000000000.0
+Joshkar-Ola	Krasnojarsk	1000000000.0
+Kemerovo	Krasnojarsk	81.66
+Kaliningrad	Krasnojarsk	181.91
+Kogalym	Krasnojarsk	1000000000.0
+Khabarovsk	Krasnojarsk	None
+Krasnojarsk	Krasnojarsk	0.0
+Tver	Krasnojarsk	1000000000.0
+Kaluga	Krasnojarsk	1000000000.0
+Kostroma	Krasnojarsk	1000000000.0
+Kurgan	Krasnojarsk	1000000000.0
+Krasnodar	Krasnojarsk	1000000000.0
+Kotlas	Krasnojarsk	1000000000.0
+Samara	Krasnojarsk	171.68
+Kirovsk	Krasnojarsk	198.91
+Kirov	Krasnojarsk	1000000000.0
+Komsomolsk Na Amure	Krasnojarsk	1000000000.0
+Kyzyl	Krasnojarsk	1000000000.0
+Kazan	Krasnojarsk	184.0
+Leshukonskoye	Krasnojarsk	1000000000.0
+St Petersburg	Krasnojarsk	145.35
+Smolensk	Krasnojarsk	1000000000.0
+Lipetsk	Krasnojarsk	None
+Makhachkala	Krasnojarsk	184.87
+Mirnyj	Krasnojarsk	1000000000.0
+Murmansk	Krasnojarsk	192.81
+Magnitogorsk	Krasnojarsk	1000000000.0
+Mineralnye Vody	Krasnojarsk	178.36
+Nalchik	Krasnojarsk	1000000000.0
+Naberevnye Chelny	Krasnojarsk	1000000000.0
+Neftekamsk	Krasnojarsk	1000000000.0
+Neryungri	Krasnojarsk	265.69
+Nefteyugansk	Krasnojarsk	1000000000.0
+Nizhnevartovsk	Krasnojarsk	126.47
+Naryan-Mar	Krasnojarsk	1000000000.0
+Novorossijsk	Krasnojarsk	1000000000.0
+Nojabrxsk	Krasnojarsk	1000000000.0
+Novokuznetsk	Krasnojarsk	109.66
+Novy Urengoy	Krasnojarsk	144.45
+Novgorod	Krasnojarsk	1000000000.0
+Nadym	Krasnojarsk	169.66
+Orel	Krasnojarsk	1000000000.0
+Vladikavkaz	Krasnojarsk	190.09
+Okhotsk	Krasnojarsk	1000000000.0
+Oktiabrskij	Krasnojarsk	1000000000.0
+Omsk	Krasnojarsk	105.91
+Orsk	Krasnojarsk	1000000000.0
+Novosibirsk	Krasnojarsk	69.66
+Perm	Krasnojarsk	155.04
+Petrozavodsk	Krasnojarsk	1000000000.0
+Pechora	Krasnojarsk	1000000000.0
+Penza	Krasnojarsk	207.91
+Petropavlovsk-Kamchats	Krasnojarsk	340.72
+Pskov	Krasnojarsk	1000000000.0
+Provideniya	Krasnojarsk	1000000000.0
+Pevek	Krasnojarsk	1000000000.0
+Polyarnyj	Krasnojarsk	1000000000.0
+Raduzhnyi	Krasnojarsk	1000000000.0
+Orenburg	Krasnojarsk	None
+Rostov	Krasnojarsk	1000000000.0
+Saratov	Krasnojarsk	189.12
+Rybinsk	Krasnojarsk	1000000000.0
+Ryazan	Krasnojarsk	1000000000.0
+Syktyvkar	Krasnojarsk	1000000000.0
+Surgut	Krasnojarsk	155.03
+Saransk	Krasnojarsk	1000000000.0
+Salekhard	Krasnojarsk	1000000000.0
+Stavropol	Krasnojarsk	1000000000.0
+Ekaterinburg	Krasnojarsk	135.69
+Strzhewoi	Krasnojarsk	1000000000.0
+Tambov	Krasnojarsk	1000000000.0
+Tyumen	Krasnojarsk	162.6
+Tomsk	Krasnojarsk	90.66
+Tobolsk	Krasnojarsk	1000000000.0
+Tula	Krasnojarsk	1000000000.0
+Tynda	Krasnojarsk	1000000000.0
+Ukhta	Krasnojarsk	1000000000.0
+Ufa	Krasnojarsk	176.82
+Ust-Ilimsk	Krasnojarsk	1000000000.0
+Ust-Kut	Krasnojarsk	1000000000.0
+Ulyanovsk	Krasnojarsk	130.66
+Uraj	Krasnojarsk	1000000000.0
+Kursk	Krasnojarsk	1000000000.0
+Usinsk	Krasnojarsk	1000000000.0
+Bugulma	Krasnojarsk	1000000000.0
+Ulan-ude	Krasnojarsk	209.78
+Yuzhno-Sakhalinsk	Krasnojarsk	329.85
+Vologda	Krasnojarsk	1000000000.0
+Vorkuta	Krasnojarsk	1000000000.0
+Volgodonsk	Krasnojarsk	1000000000.0
+Velikiye Luki	Krasnojarsk	1000000000.0
+Volgograd	Krasnojarsk	161.12
+Voronezh	Krasnojarsk	1000000000.0
+Velikij Ustyug	Krasnojarsk	1000000000.0
+Vladivostok	Krasnojarsk	289.42
+Yakutsk	Krasnojarsk	298.72
+Anapa	Samara	1000000000.0
+Anapa	Ufa	1000000000.0
+Abakan	Samara	None
+Abakan	Ufa	228.38
+Achinsk	Samara	1000000000.0
+Achinsk	Ufa	1000000000.0
+Aldan	Samara	None
+Aldan	Ufa	None
+Adler	Samara	108.87
+Adler	Ufa	107.41
+Amderma	Samara	1000000000.0
+Amderma	Ufa	1000000000.0
+Arkhangelsk	Samara	1000000000.0
+Arkhangelsk	Ufa	1000000000.0
+Astrakhan	Samara	78.08
+Astrakhan	Ufa	84.62
+Barnaul	Samara	None
+Barnaul	Ufa	169.23
+Beloreck	Samara	1000000000.0
+Beloreck	Ufa	1000000000.0
+Moscow	Samara	41.32
+Moscow	Ufa	54.86
+Blagoveschensk	Samara	277.27
+Blagoveschensk	Ufa	290.81
+Bratsk	Samara	300.9
+Bratsk	Ufa	286.44
+Balakovo	Samara	1000000000.0
+Balakovo	Ufa	1000000000.0
+Briansk	Samara	1000000000.0
+Briansk	Ufa	1000000000.0
+Cherepovets	Samara	1000000000.0
+Cherepovets	Ufa	1000000000.0
+Chelyabinsk	Samara	85.93
+Chelyabinsk	Ufa	92.47
+Chokurdah	Samara	1000000000.0
+Chokurdah	Ufa	1000000000.0
+Chkalovsky	Samara	1000000000.0
+Chkalovsky	Ufa	1000000000.0
+Chulman	Samara	1000000000.0
+Chulman	Ufa	1000000000.0
+Solovetsky	Samara	1000000000.0
+Solovetsky	Ufa	1000000000.0
+Cheboksary	Samara	1000000000.0
+Cheboksary	Ufa	1000000000.0
+Cherskiy	Samara	1000000000.0
+Cherskiy	Ufa	1000000000.0
+Dikson	Samara	1000000000.0
+Dikson	Ufa	None
+Anadyr	Samara	1000000000.0
+Anadyr	Ufa	1000000000.0
+Belgorod	Samara	1000000000.0
+Belgorod	Ufa	1000000000.0
+Eniseysk	Samara	None
+Eniseysk	Ufa	1000000000.0
+Elista	Samara	1000000000.0
+Elista	Ufa	1000000000.0
+Magdagachi	Samara	1000000000.0
+Magdagachi	Ufa	1000000000.0
+Magadan	Samara	329.26
+Magadan	Ufa	385.26
+Gelendzik	Samara	1000000000.0
+Gelendzik	Ufa	1000000000.0
+Nizhniy Novgorod	Samara	113.33
+Nizhniy Novgorod	Ufa	117.87
+Groznyj	Samara	109.07
+Groznyj	Ufa	122.61
+Khanty-mansiysk	Samara	236.08
+Khanty-mansiysk	Ufa	174.16
+Chita	Samara	277.58
+Chita	Ufa	291.12
+Hatanga	Samara	1000000000.0
+Hatanga	Ufa	1000000000.0
+Igarka	Samara	1000000000.0
+Igarka	Ufa	1000000000.0
+Yaroslavl	Samara	1000000000.0
+Yaroslavl	Ufa	None
+Izhevsk	Samara	1000000000.0
+Izhevsk	Ufa	1000000000.0
+Tiksi	Samara	1000000000.0
+Tiksi	Ufa	None
+Irkutsk	Samara	None
+Irkutsk	Ufa	159.09
+Inta	Samara	1000000000.0
+Inta	Ufa	1000000000.0
+Ivanovo	Samara	1000000000.0
+Ivanovo	Ufa	1000000000.0
+Joshkar-Ola	Samara	1000000000.0
+Joshkar-Ola	Ufa	1000000000.0
+Kemerovo	Samara	172.08
+Kemerovo	Ufa	129.22
+Kaliningrad	Samara	91.87
+Kaliningrad	Ufa	105.41
+Kogalym	Samara	1000000000.0
+Kogalym	Ufa	1000000000.0
+Khabarovsk	Samara	314.38
+Khabarovsk	Ufa	327.92
+Krasnojarsk	Samara	171.68
+Krasnojarsk	Ufa	176.82
+Tver	Samara	1000000000.0
+Tver	Ufa	1000000000.0
+Kaluga	Samara	1000000000.0
+Kaluga	Ufa	1000000000.0
+Kostroma	Samara	1000000000.0
+Kostroma	Ufa	1000000000.0
+Kurgan	Samara	None
+Kurgan	Ufa	1000000000.0
+Krasnodar	Samara	None
+Krasnodar	Ufa	1000000000.0
+Kotlas	Samara	1000000000.0
+Kotlas	Ufa	None
+Samara	Samara	0.0
+Samara	Ufa	69.18
+Kirovsk	Samara	133.87
+Kirovsk	Ufa	124.41
+Kirov	Samara	1000000000.0
+Kirov	Ufa	1000000000.0
+Komsomolsk Na Amure	Samara	1000000000.0
+Komsomolsk Na Amure	Ufa	1000000000.0
+Kyzyl	Samara	1000000000.0
+Kyzyl	Ufa	1000000000.0
+Kazan	Samara	72.96
+Kazan	Ufa	79.5
+Leshukonskoye	Samara	1000000000.0
+Leshukonskoye	Ufa	1000000000.0
+St Petersburg	Samara	81.31
+St Petersburg	Ufa	94.85
+Smolensk	Samara	1000000000.0
+Smolensk	Ufa	1000000000.0
+Lipetsk	Samara	1000000000.0
+Lipetsk	Ufa	1000000000.0
+Makhachkala	Samara	94.83
+Makhachkala	Ufa	108.37
+Mirnyj	Samara	1000000000.0
+Mirnyj	Ufa	1000000000.0
+Murmansk	Samara	102.77
+Murmansk	Ufa	116.31
+Magnitogorsk	Samara	1000000000.0
+Magnitogorsk	Ufa	1000000000.0
+Mineralnye Vody	Samara	102.72
+Mineralnye Vody	Ufa	116.26
+Nalchik	Samara	1000000000.0
+Nalchik	Ufa	1000000000.0
+Naberevnye Chelny	Samara	1000000000.0
+Naberevnye Chelny	Ufa	1000000000.0
+Neftekamsk	Samara	1000000000.0
+Neftekamsk	Ufa	1000000000.0
+Neryungri	Samara	293.11
+Neryungri	Ufa	306.65
+Nefteyugansk	Samara	1000000000.0
+Nefteyugansk	Ufa	1000000000.0
+Nizhnevartovsk	Samara	194.43
+Nizhnevartovsk	Ufa	159.97
+Naryan-Mar	Samara	1000000000.0
+Naryan-Mar	Ufa	1000000000.0
+Novorossijsk	Samara	1000000000.0
+Novorossijsk	Ufa	1000000000.0
+Nojabrxsk	Samara	1000000000.0
+Nojabrxsk	Ufa	1000000000.0
+Novokuznetsk	Samara	200.08
+Novokuznetsk	Ufa	138.74
+Novy Urengoy	Samara	177.41
+Novy Urengoy	Ufa	215.35
+Novgorod	Samara	1000000000.0
+Novgorod	Ufa	1000000000.0
+Nadym	Samara	260.08
+Nadym	Ufa	154.88
+Orel	Samara	1000000000.0
+Orel	Ufa	1000000000.0
+Vladikavkaz	Samara	100.05
+Vladikavkaz	Ufa	113.59
+Okhotsk	Samara	1000000000.0
+Okhotsk	Ufa	1000000000.0
+Oktiabrskij	Samara	1000000000.0
+Oktiabrskij	Ufa	1000000000.0
+Omsk	Samara	124.27
+Omsk	Ufa	102.02
+Orsk	Samara	1000000000.0
+Orsk	Ufa	1000000000.0
+Novosibirsk	Samara	160.08
+Novosibirsk	Ufa	115.16
+Perm	Samara	70.4
+Perm	Ufa	76.94
+Petrozavodsk	Samara	1000000000.0
+Petrozavodsk	Ufa	1000000000.0
+Pechora	Samara	1000000000.0
+Pechora	Ufa	1000000000.0
+Penza	Samara	94.87
+Penza	Ufa	131.41
+Petropavlovsk-Kamchats	Samara	382.14
+Petropavlovsk-Kamchats	Ufa	395.68
+Pskov	Samara	1000000000.0
+Pskov	Ufa	1000000000.0
+Provideniya	Samara	1000000000.0
+Provideniya	Ufa	1000000000.0
+Pevek	Samara	1000000000.0
+Pevek	Ufa	1000000000.0
+Polyarnyj	Samara	1000000000.0
+Polyarnyj	Ufa	1000000000.0
+Raduzhnyi	Samara	1000000000.0
+Raduzhnyi	Ufa	1000000000.0
+Orenburg	Samara	1000000000.0
+Orenburg	Ufa	1000000000.0
+Rostov	Samara	1000000000.0
+Rostov	Ufa	1000000000.0
+Saratov	Samara	88.08
+Saratov	Ufa	122.62
+Rybinsk	Samara	1000000000.0
+Rybinsk	Ufa	1000000000.0
+Ryazan	Samara	1000000000.0
+Ryazan	Ufa	1000000000.0
+Syktyvkar	Samara	1000000000.0
+Syktyvkar	Ufa	1000000000.0
+Surgut	Samara	175.99
+Surgut	Ufa	154.53
+Saransk	Samara	1000000000.0
+Saransk	Ufa	1000000000.0
+Salekhard	Samara	1000000000.0
+Salekhard	Ufa	1000000000.0
+Stavropol	Samara	1000000000.0
+Stavropol	Ufa	1000000000.0
+Ekaterinburg	Samara	78.05
+Ekaterinburg	Ufa	84.59
+Strzhewoi	Samara	1000000000.0
+Strzhewoi	Ufa	None
+Tambov	Samara	1000000000.0
+Tambov	Ufa	1000000000.0
+Tyumen	Samara	216.02
+Tyumen	Ufa	133.1
+Tomsk	Samara	180.62
+Tomsk	Ufa	127.69
+Tobolsk	Samara	1000000000.0
+Tobolsk	Ufa	1000000000.0
+Tula	Samara	1000000000.0
+Tula	Ufa	1000000000.0
+Tynda	Samara	1000000000.0
+Tynda	Ufa	1000000000.0
+Ukhta	Samara	None
+Ukhta	Ufa	1000000000.0
+Ufa	Samara	69.18
+Ufa	Ufa	0.0
+Ust-Ilimsk	Samara	1000000000.0
+Ust-Ilimsk	Ufa	1000000000.0
+Ust-Kut	Samara	1000000000.0
+Ust-Kut	Ufa	None
+Ulyanovsk	Samara	195.62
+Ulyanovsk	Ufa	159.16
+Uraj	Samara	1000000000.0
+Uraj	Ufa	1000000000.0
+Kursk	Samara	1000000000.0
+Kursk	Ufa	1000000000.0
+Usinsk	Samara	1000000000.0
+Usinsk	Ufa	1000000000.0
+Bugulma	Samara	1000000000.0
+Bugulma	Ufa	1000000000.0
+Ulan-ude	Samara	259.14
+Ulan-ude	Ufa	272.68
+Yuzhno-Sakhalinsk	Samara	321.81
+Yuzhno-Sakhalinsk	Ufa	333.35
+Vologda	Samara	1000000000.0
+Vologda	Ufa	1000000000.0
+Vorkuta	Samara	None
+Vorkuta	Ufa	1000000000.0
+Volgodonsk	Samara	1000000000.0
+Volgodonsk	Ufa	1000000000.0
+Velikiye Luki	Samara	None
+Velikiye Luki	Ufa	1000000000.0
+Volgograd	Samara	261.62
+Volgograd	Ufa	225.16
+Voronezh	Samara	1000000000.0
+Voronezh	Ufa	None
+Velikij Ustyug	Samara	1000000000.0
+Velikij Ustyug	Ufa	1000000000.0
+Vladivostok	Samara	303.38
+Vladivostok	Ufa	316.92
+Yakutsk	Samara	263.68
+Yakutsk	Ufa	304.22
