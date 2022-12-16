@@ -8,8 +8,8 @@ class Person:
 
 class Solver:
     def __init__(self):
-        self.__api_key = "pQzD3NVRAXQjwNFdiQVHMypb96AsxMvL"
-        self.__api_secret = "Dj2GZEcwjOumIUYj"
+        self.__api_key = "td8dN8DPI7VGsmjzZx0cdgBRsx23pGBO"
+        self.__api_secret = "F9pPJ1eGOdL4xsIN"
         self.amadeus = Client(
             client_id=str(self.__api_key),
             client_secret=str(self.__api_secret)
