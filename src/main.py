@@ -71,6 +71,8 @@ def add_user_handler(message):
     group_name = args[2]
     user_name = args[3]
     city = args[4]
+    if city == 'Petersburg':
+        city = 'St Petersburg'
 
     status = table.add_user(group_id, group_name, user_name, city)
     logger.info(f'add user {user_name} status: {status}')
@@ -156,11 +158,19 @@ def other_text_handler(message):
 
 
 if __name__ == '__main__':
+    pid = os.fork()
+
+    if pid == 0:
+        print("LS: ", os.listdir())
+        os.execlp('python3', 'background', './updater.py')
+        exit(1)
+
     """Начало работы бота"""
     logger.setLevel(level='INFO')
     logger.info('Starting bot')
     db_path = 'db/data.db'  # Позже будет доставаться из окружения
     table = UserGroupDB(db_path)
-    if len(sys.argv) == 1 or sys.argv[1] == '1':
+    if len(sys.argv) > 1 and sys.argv[1] == '1':
         logger.info(f'create_table status: {table.recreate_table()}')
     bot.polling(none_stop=True, interval=0)
+    os.kill(pid, -9)

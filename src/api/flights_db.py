@@ -1,4 +1,5 @@
 import logging
+import os.path
 import sqlite3
 from enum import Enum
 class DBStatus(Enum):
@@ -15,6 +16,9 @@ logger = logging.getLogger(__name__)
 
 class FlightsDB:
     def __init__(self, path):
+        print(os.path.exists(path))
+        print('Create from', path)
+
         self.conn = None
         self.path = path
         try:
@@ -23,6 +27,7 @@ class FlightsDB:
             self.cursor.execute("PRAGMA foreign_keys=ON")
         except sqlite3.Error as error:
             logger.warning(error)
+
             raise error  # Критическая ситуация, иначе будет UB
 
     def get_all_flights(self) -> list:

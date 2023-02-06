@@ -1,6 +1,10 @@
 from .data import Data
 
 from amadeus import Client
+from .flights_db import FlightsDB
+from datetime import datetime
+
+db = FlightsDB('./db/flights_data.db')
 
 class Person:
     def __init__(self, city):
@@ -8,15 +12,16 @@ class Person:
 
 class Solver:
     def __init__(self):
-        self.__api_key = "pQzD3NVRAXQjwNFdiQVHMypb96AsxMvL"
-        self.__api_secret = "Dj2GZEcwjOumIUYj"
+        self.__api_key = "td8dN8DPI7VGsmjzZx0cdgBRsx23pGBO"
+        self.__api_secret = "F9pPJ1eGOdL4xsIN"
         self.amadeus = Client(
             client_id=str(self.__api_key),
             client_secret=str(self.__api_secret)
         )
         self.data = Data('./api/data.txt')
     
-    def _get_flight_offers(self, orig, dest, date):
+    def get_flight_offers(self, orig, dest, date):
+        print('API: ', orig, dest, date)
         response = self.amadeus.shopping.flight_offers_search.get(
             originLocationCode=orig,
             destinationLocationCode=dest,
@@ -25,8 +30,8 @@ class Solver:
         )
         return response.data
     
-    def _get_cheapest_price(self, orig, dest, date):
-        data = self._get_flight_offers(orig, dest, date)
+    def get_cheapest_price(self, orig, dest, date):
+        data = self.get_flight_offers(orig, dest, date)
         now = 1000000000.0
         for item in data:
             price = float(item['price']['total'])
@@ -46,7 +51,16 @@ class Solver:
             for air2 in airports2:
                 try:
                     print(air1[0], air2[0])
-                    price = self.get_cheapest_price(air1[0], air2[0], date)
+                    price = db.get_flight_price(air1[0], air2[0])
+                    if price is None:
+                        print('No Price')
+                        continue
+                    print('Price:', price)
+
+                    # last_upd = int(db.get_flight_last_upd(air1[0], air2[0]))
+                    # cur = datetime.timestamp(datetime.now())
+                    # if (cur - last_upd) > 2400:
+                    #     price = self.get_cheapest_price(air1[0], air2[0], date)
                     if price is not None:
                         any_flights = True
                         print('flight', air1[0], air2[0], date, 'price', price)
@@ -65,7 +79,7 @@ class Solver:
                     'Samara', 'Ufa', 'Omsk', 'Krasnodar', 'Voronezh', 'Perm', 'Volgograd']
         result = []
         suitable_city = True
-        for city in cities[:2]:
+        for city in cities:
             sum = 0.0
             print('City:', city)
             for person in people:
