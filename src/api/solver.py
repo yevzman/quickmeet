@@ -1,38 +1,52 @@
 from .data import Data
 
 from amadeus import Client
+import logging
+import os
+
+FORMAT = '%(asctime)s - [%(levelname)s] -  %(name)s - (%(filename)s).%(funcName)s(%(lineno)d) - %(message)s'
+logging.basicConfig(format=FORMAT, level=logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 class Person:
     def __init__(self, city):
         self.city = city
 
+    def __str__(self):
+        return f'[City: {self.city}]'
+
+
 class Solver:
-    def __init__(self):
-        self.__api_key = "td8dN8DPI7VGsmjzZx0cdgBRsx23pGBO"
-        self.__api_secret = "F9pPJ1eGOdL4xsIN"
+    def __init__(self, path='./src/api/data.txt'):
+        self.__api_key = os.getenv('API_KEY') # "pQzD3NVRAXQjwNFdiQVHMypb96AsxMvL"
+        self.__api_secret = os.getenv('API_SECRET') # "Dj2GZEcwjOumIUYj"
         self.amadeus = Client(
             client_id=str(self.__api_key),
             client_secret=str(self.__api_secret)
         )
-        self.data = Data('./api/data.txt')
+        self.data = Data(path)
     
     def _get_flight_offers(self, orig, dest, date):
-        response = self.amadeus.shopping.flight_offers_search.get(
-            originLocationCode=orig,
-            destinationLocationCode=dest,
-            departureDate=date,
-            adults=1
-        )
-        return response.data
+        try:
+            response = self.amadeus.shopping.flight_offers_search.get(
+                originLocationCode=orig,
+                destinationLocationCode=dest,
+                departureDate=date,
+                adults=1
+            )
+            return response.data
+        except:
+            return None
     
     def _get_cheapest_price(self, orig, dest, date):
         data = self._get_flight_offers(orig, dest, date)
         now = 1000000000.0
-        for item in data:
-            price = float(item['price']['total'])
-            now = min(now, price)
-        if len(data) == 0:
-            return None
+        if data is not None:
+            for item in data:
+                price = float(item['price']['total'])
+                now = min(now, price)
+            if len(data) == 0:
+                return None
         return now
 
     def get_cheapest_cities_route(self, orig_city, dest_city, date):
@@ -44,15 +58,11 @@ class Solver:
         any_flights = False
         for air1 in airports1:
             for air2 in airports2:
-                try:
-                    print(air1[0], air2[0])
-                    price = self.get_cheapest_price(air1[0], air2[0], date)
-                    if price is not None:
-                        any_flights = True
-                        print('flight', air1[0], air2[0], date, 'price', price)
-                        min_price = min(min_price, price)
-                except:
-                    continue
+                price = self._get_cheapest_price(air1[0], air2[0], date)
+                logger.debug(f'From Airport: {str(air1[0])} To Airport: {str(air2[0])} Price: {price}')
+                if price is not None:
+                    any_flights = True
+                    min_price = min(min_price, price)
         if any_flights:
             return min_price
             #There should be Database update (or should not)
@@ -60,17 +70,18 @@ class Solver:
 
     def get_cheapest_meeting(self, people: list, date):
 #        cities = self.data.get_cities()
+        logger.info(f'Find cheapest flight for { " ".join(map(lambda x: str(x), people)) } in date {date}')
         cities = ['Moscow', 'St Petersburg', 'Novosibirsk', 'Ekaterinburg',
                     'Kazan', 'Nizhniy Novgorod', 'Chelyabinsk', 'Krasnojarsk',
                     'Samara', 'Ufa', 'Omsk', 'Krasnodar', 'Voronezh', 'Perm', 'Volgograd']
         result = []
         suitable_city = True
-        for city in cities[:2]:
+        for city in cities:
             sum = 0.0
-            print('City:', city)
             for person in people:
                 min_price = self.get_cheapest_cities_route(person.city, city, date)
                 if min_price is not None:
+                    logger.debug(f'From {str(person.city)}  To {str(city)}  Price: {str(min_price)}')
                     sum += min_price
                 else:
                     suitable_city = False

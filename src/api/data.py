@@ -1,4 +1,3 @@
-f = open('./api/data.txt')
 
 class Data:
     def __init__(self, filename):
