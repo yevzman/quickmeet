@@ -1,12 +1,16 @@
 from .data import Data
+from .cache import RedisCache, get_ticket_key
 
 from amadeus import Client
 import logging
 import os
 
+
 FORMAT = '%(asctime)s - [%(levelname)s] -  %(name)s - (%(filename)s).%(funcName)s(%(lineno)d) - %(message)s'
 logging.basicConfig(format=FORMAT, level=logging.DEBUG)
 logger = logging.getLogger(__name__)
+
+cache = RedisCache()
 
 class Person:
     def __init__(self, city):
@@ -39,14 +43,21 @@ class Solver:
             return None
     
     def _get_cheapest_price(self, orig, dest, date):
+        # firstly trying get value from cache:
+        price = cache.get_value(get_ticket_key(orig, dest, date))
+        if price is not None:
+            return float(price)
         data = self._get_flight_offers(orig, dest, date)
         now = 1000000000.0
         if data is not None:
+            if len(data) == 0:
+                return None
             for item in data:
                 price = float(item['price']['total'])
                 now = min(now, price)
-            if len(data) == 0:
-                return None
+
+        # after got response save it into cache:
+        cache.add_value(get_ticket_key(orig, dest, date), now)
         return now
 
     def get_cheapest_cities_route(self, orig_city, dest_city, date):
