@@ -3,6 +3,8 @@ import os
 import sys
 import logging
 import telebot
+import api.solver
+import db.bot_db
 from db.bot_db import UserGroupDB, DBStatus
 from api.solver import Person, Solver
 
@@ -10,7 +12,7 @@ token = os.environ['TELEGRAM_BOT_TOKEN']
 bot = telebot.TeleBot(token)
 
 FORMAT = '%(asctime)s - [%(levelname)s] -  %(name)s - (%(filename)s).%(funcName)s(%(lineno)d) - %(message)s'
-logging.basicConfig(format=FORMAT)
+logging.basicConfig(format=FORMAT, level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 # auxiliary tools
@@ -22,6 +24,7 @@ solver: Solver = Solver()
 def start_handler(message):
     text = 'Привет!'
     bot.send_message(message.from_user.id, text)
+    print(message.from_user.id)
 
 
 @bot.message_handler(commands=['help'], content_types=['text'])
@@ -136,16 +139,19 @@ def find_flights_handler(message):
 
     group_list = table.view_group(group_id, group_name)
     people = []
-    for user in group_list:
-        people.append(Person(user[1]))
-    info = solver.get_cheapest_meeting(people, date)
-    if info is not None:
-        text = f'Flight info:\n' \
-               f'City: {info[1]}\n' \
-               f'Price: {info[0]}'
+    text = 'Нет информации о полетах на выбранную дату!'
+
+    if group_list is not None:
+        for user in group_list:
+            people.append(Person(user[1]))
+        info = solver.get_cheapest_meeting(people, date)
+        if info is not None:
+            text = f'Flight info:\n' \
+                   f'City: {info[1]}\n' \
+                   f'Price: {info[0]}'
+        logger.info(f'Flight info: {info}')
     else:
-        text = 'Нет информации'
-    logger.info(f'Flight info: {info}')
+        text = 'Ошибка в group_id или group_name'
     bot.send_message(message.from_user.id, text)
 
 
@@ -159,8 +165,8 @@ if __name__ == '__main__':
     """Начало работы бота"""
     logger.setLevel(level='INFO')
     logger.info('Starting bot')
-    db_path = 'db/data.db'  # Позже будет доставаться из окружения
+    db_path = os.getenv('DB_PATH') #'db/data.db'
     table = UserGroupDB(db_path)
-    if len(sys.argv) == 1 or sys.argv[1] == '1':
+    if len(sys.argv) != 1 and sys.argv[1] == '1':
         logger.info(f'create_table status: {table.recreate_table()}')
     bot.polling(none_stop=True, interval=0)
