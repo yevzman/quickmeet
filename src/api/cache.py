@@ -17,18 +17,34 @@ class Cache(ABC):
     def get_value(self, key:str):
         pass
 
+class MockRedisStorage:
+
+    def set(self, key: str, value):
+        pass
+
+    def get(self, key:str):
+        return None
+
 class RedisCache(Cache):
     def __init__(self):
         self.storage = redis.Redis(host='127.0.0.1', port=6379, db=0)
         super().__init__()
 
     def add_value(self, key: str, value):
-        logger.debug(f'add value [{key}, {value}] into cache')
-        self.storage.set(key, value)
+        try:
+            self.storage.set(key, value)
+            logger.debug(f'add value [{key}, {value}] into cache')
+        except:
+            self.storage = MockRedisStorage()
+
 
     def get_value(self, key:str):
-        result = self.storage.get(key)
-        logger.debug(f'get value from {key} is {result}')
+        result = None
+        try:
+            result = self.storage.get(key)
+            logger.debug(f'get value from {key} is {result}')
+        except:
+            self.storage = MockRedisStorage()
         return result
 
 
