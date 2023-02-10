@@ -3,7 +3,8 @@ COPY . .
 RUN apt-get update
 RUN apt-get install -y  \
             python3     \
-            pip
+            pip         \
+            redis
 RUN pip install -r requirements.txt
 
 ENV TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
@@ -11,5 +12,7 @@ ENV DB_PATH=${DB_PATH}
 ENV API_KEY=${API_KEY}
 ENV API_SECRET=${API_SECRET}
 
+
 ENTRYPOINT ["python3", "src/main.py"]
+EXPOSE 6379/tcp
 CMD ["bash"]
